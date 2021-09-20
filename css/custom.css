@@ -1,0 +1,92 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 200vh;
+}
+a{
+    text-decoration: none;
+}
+
+:root{
+    --cus-secondary: #40c4ec;
+    --cus-primary: #f0f0f0;
+    --pure: #fff;
+}
+
+.cus-bg-secondary{
+    background-color: var(--cus-secondary);
+}
+
+.cus-bg-primary{
+    background-color: var(--cus-primary);
+}
+
+.bg-pure{
+    background-color: var(--pure);
+}
+
+.mid-header{
+
+    @media(max-width: 768px){
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ 
+        display: none; 
+    }
+	
+    .navbar .nav-item:hover .dropdown-menu{ 
+        display: block; 
+    }
+	.navbar .nav-item .dropdown-menu{ 
+        margin-top:0; 
+    }
+}
+
+
+.dropdown-item{
+    background-color: var(--pure);
+}
+.dropdown-item:hover{
+    background-color: var(--cus-secondary);
+    color: var(--pure);
+}
+
+.imp_link{
+    margin-bottom: 5px;
+}
+
+.imp_link::before{
+    background-color: #111;
+    border-radius: 1em;
+    margin-bottom: 1px;
+    content: " ";
+    display: inline-block;
+    height: 0.55em;
+    margin-right: 6px;
+    width: 0.55em;
+}
+
+.carousel-label{
+    background-color: rgba(0,0,0,0.5);
+    color: var(--pure);
+    width: 100%;
+}
+
+.about_civil{
+    
+    text-align: justify;
+}
+
+.news_link{
+    position: relative;
+}
+
+.news_link::after{
+    position: absolute;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: var(--cus-primary);
+}
