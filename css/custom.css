@@ -99,3 +99,37 @@ a{
     width: 100%;
     background-color: var(--cus-primary);
 }
+
+.m-section-heading{
+    position: relative;
+}
+
+.m-section-heading::after{
+    content: "";
+    left:16px;
+    bottom: 0;
+    position: absolute;
+    height: 3px;
+    width: 40%;
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.7), 
+    rgba(0, 0, 255, 0.6), rgba(75, 0, 130, 0.6), 
+    rgba(238, 130, 238, 0.6), rgba(255, 0, 0, 0.6), 
+    rgba(255, 165, 0, 0.6), rgba(255, 255, 0, 0.6));
+}
+
+.section-heading{
+    position: relative;
+}
+
+.section-heading::after{
+    content: "";
+    left:0;
+    bottom: 0;
+    position: absolute;
+    height: 3px;
+    width: 40%;
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.7), 
+    rgba(0, 0, 255, 0.6), rgba(75, 0, 130, 0.6), 
+    rgba(238, 130, 238, 0.6), rgba(255, 0, 0, 0.6), 
+    rgba(255, 165, 0, 0.6), rgba(255, 255, 0, 0.6));
+}
