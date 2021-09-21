@@ -24,11 +24,19 @@ a{
     background-color: var(--pure);
 }
 
+.cus-text-justify{
+    text-align: justify;
+}
+
 .mid-header{
 
     @media(max-width: 768px){
         text-align: center;
     }
+}
+
+.nav-item:hover ~ .nav-link{
+    color: var(--cus-secondary);
 }
 
 @media all and (min-width: 992px) {
@@ -45,6 +53,7 @@ a{
 }
 
 
+
 .dropdown-item{
     background-color: var(--pure);
 }
@@ -57,7 +66,7 @@ a{
     margin-bottom: 5px;
 }
 
-.imp_link::before{
+/* .imp_link::before{
     background-color: #111;
     border-radius: 1em;
     margin-bottom: 1px;
@@ -66,7 +75,7 @@ a{
     height: 0.55em;
     margin-right: 6px;
     width: 0.55em;
-}
+} */
 
 .carousel-label{
     background-color: rgba(0,0,0,0.5);
