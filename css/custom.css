@@ -83,9 +83,14 @@ a{
     width: 100%;
 }
 
-.about_civil{
-    
-    text-align: justify;
+.side-tab{
+    position: sticky;
+    top: 24px;
+}
+
+.second-side-tab{
+    position: sticky;
+    top: 390px;
 }
 
 .news_link{
