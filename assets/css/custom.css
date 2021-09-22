@@ -1,6 +1,5 @@
 body{
     font-family: 'Roboto', sans-serif;
-    height: 200vh;
 }
 a{
     text-decoration: none;
@@ -33,6 +32,12 @@ a{
     @media(max-width: 768px){
         text-align: center;
     }
+}
+
+.cus-navbar{
+    position: sticky;
+    top:0;
+    z-index: 1000;
 }
 
 .nav-item:hover ~ .nav-link{
@@ -89,8 +94,7 @@ a{
 }
 
 .second-side-tab{
-    position: sticky;
-    top: 390px;
+    position: fixed;
 }
 
 .news_link{
