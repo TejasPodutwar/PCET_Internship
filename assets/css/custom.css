@@ -142,3 +142,17 @@ a{
     rgba(238, 130, 238, 0.6), rgba(255, 0, 0, 0.6), 
     rgba(255, 165, 0, 0.6), rgba(255, 255, 0, 0.6));
 }
+
+/* Faculty Page */
+.faculty_card{
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    min-height: 330px;
+}
+
+.faculty_img{
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+
+}
