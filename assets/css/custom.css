@@ -150,6 +150,11 @@ a{
     min-height: 330px;
 }
 
+.adminstaff_card{
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
 .faculty_img{
     border-radius: 50%;
     width: 128px;
