@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Civil Engineering Department at Pimpri Chinchwad College of Engineering (PCCOE) | Pimpri Chinchwad | Pune</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -240,7 +242,17 @@
             <div class="col-md-6">
                 <div class="col-md-12 bg-pure" style="border: 1px solid rgba(0,0,0,.125);">
                     <div class="row">
-                        <div id="carouselMainPage" class="carousel carousel-light slide" data-bs-ride="carousel">
+                        <div class="owl-carousel owl-theme w-100">
+                            <div class="carousel_item w-100">
+                                <img src="./assets/img/pimpri-chinchwad-college-of-engineering-pccoe-pune.jpg" alt="homepage_img1">
+                                <span class="carousel_img_label fw-bold p-2 fs-5">Pimpri Chinchwad College of Engineering</span>
+                            </div>
+                            <div class="carousel_item w-100">
+                                <img src="./assets/img/student-welfare-association.jpg" alt="homepage_img2">
+                                <span class="carousel_img_label fw-bold p-2 fs-5">Welcome to Civil Department </span>
+                            </div>
+                        </div>
+                        <!-- <div id="carouselMainPage" class="carousel carousel-light slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselMainPage" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselMainPage" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -269,7 +281,7 @@
                                 <span class="carousel-control-next-icon " aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
-                        </div>
+                        </div> -->
 
                         <div class="col-md-12 mb-3">
                             <h4 class="m-section-heading fw-bold text-primary p-3 pb-2">Welcome to Department of Civil Engineering</h4>
@@ -342,6 +354,21 @@
             </div>
         </div>
     </div>
-
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            dots:false,
+            autoplay:true,
+            autoplayTimeout:2000,
+            animateOut: 'fadeOut',
+            responsive:{
+                0:{
+                    items:1
+                }
+            }
+        })
+    </script>
 </html>
