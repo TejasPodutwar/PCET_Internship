@@ -40,3 +40,34 @@ data = [
 ]
 
 addOrderedTable(root, headings, data);
+
+
+// table3
+root = document.getElementById('coursera_courses_student_table3');
+
+data = [
+    ["Viraj U. Bhandari", "BECV 107", "Sustainable Development in the 21st Century with Ban ki moon", "92.6", "5UE7K8LBTE6V"],
+    ["Viraj U. Bhandari", "BECV 107", "Effective Problem-Solving and Decision-Making.", "100", "6A3M7UTSH26B"],
+    ["Viraj U. Bhandari", "BECV 107", "The Art of Negotiation.", "100", "DVN4CSK2E8PM"],
+    ["Viraj U. Bhandari", "BECV 107", "Managing Project Risks and Changes.", "100", "E6LVBDFRXT7U"],
+    ["Viraj U. Bhandari", "BECV 107", "Initiating and Planning Projects", "100", "R9JST2XWJYQE"],
+    ["Viraj U. Bhandari", "BECV 107", "High-Impact Business Writing", "100", "SSV2FTB2V3XH"],
+    ["Shubhendu A. Kesarkar", "BECV 132", "Autodesk Certified Professional: AutoCAD for Design and Drafting Exam Prepration.", "90.8", "EWED575EHG22"],
+    ["Rohit S. Datir", "BECV 113", "Business Strategy", "88", "L98L6TMT5UTC"],
+    ["Rohit S. Datir", "BECV 113", "Excell Skills for Business: Essentials", "92", "WJLDWYTLCWT4"],
+    ["Rohit S. Datir", "BECV 113", "Excel Skills for Business: Intermediate I", "98", "K7AYSYLTKZQ7"],
+    ["Rohit S. Datir", "BECV 113", "Leading Teams", "93", "ULTF83N6AEKK"],
+    ["Rohit S. Datir", "BECV 113", "Smart Cities – Management of Smart Urban Infrastructures", "98", "LCAHF4JCT47U"],
+    ["Rohit S. Datir", "BECV 113", "Successful Negotiation: Essential Strategies and Skills", "89", "RVEAJU5BBNWX"],
+    ["Param R. Desai", "BECV 184", "Successful Negotiation: Essential Strategies and Skills.", "93.3", "CJL4ADMSGF32"],
+    ["Param R. Desai", "BECV 184", "Marketing Strategy for Entrepreneurs.", "83.2", "ZPJWL4592XHQ"],
+    ["Param R. Desai", "BECV 184", "Marketing Analytics", "82.3", "7FJ76ECNLWXV"],
+    ["Param R. Desai", "BECV 184", "Design Thinking for Innovation.", "94.4", "EQ23TQS9PJ2T"],
+    ["Param R. Desai", "BECV 184", "Mindshift: Break Through Obstacles to Learning and Discover Your Hidden Potential.", "93.1", "GZWJTDNFUK97"],
+    ["Param R. Desai", "BECV 184", "Sales Training: Techniques for a Human-Centric Sales Process.", "95.1", "9MZGCVNN5KVP"],
+    ["Utkarsha D. Golande", "BECV 123", "Introduction to Engineering Mechanics.", "80", "G3HSLZEX9XHN"],
+    ["Parimal B. Sinalkar", "BECV 169", "Introduction to Engineering Mechanics.", "93", "95J7AP6KBDSD"],
+    ["Vikas V. Singh", "BECV 170", "Work Smarter, Not Harder: Time Management for Personal & Professional Productivity.", "100", "RVHRZ577PFJV"]
+];
+
+addOrderedTable(root, headings, data);
