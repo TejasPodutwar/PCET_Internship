@@ -78,6 +78,10 @@ a{
     background-color: #0073ff11;
 }
 
+.news_link{
+    
+}
+
 /* .imp_link::before{
     background-color: #111;
     border-radius: 1em;
@@ -100,7 +104,7 @@ a{
 }
 
 .carousel_img{
-    max-height: 500px;
+    max-height: 580px;
     width:100%;
     height: auto;
 }
