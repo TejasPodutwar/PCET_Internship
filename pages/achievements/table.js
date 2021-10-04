@@ -8,9 +8,13 @@ function addOrderedTable(root, headings, data) {
         return;
     }
     const tbl = document.createElement('table');
+    tbl.className = "table table-borderless table-bordered table-hover table-responsive";
 
     var thead = tbl.createTHead();
+    thead.className = "text-center";
+
     let tr = thead.insertRow(0);
+    tr.className = "table-primary";
     for(let i = 0; i < headings.length; i++) {
         let cell = tr.insertCell();
         cell.innerHTML = headings[i];
@@ -18,6 +22,7 @@ function addOrderedTable(root, headings, data) {
     }
 
     const tbody = tbl.createTBody();
+    tbody.className = "text-center";
     for(let row = 0; row < data.length; row++) {
         // tr
         let tr = tbody.insertRow();
