@@ -6,6 +6,7 @@ a{
 }
 
 :root{
+    --primary-blue: #0d6efd;
     --cus-secondary: #40c4ec;
     --cus-primary: #f0f0f0;
     --pure: #fff;
@@ -61,14 +62,24 @@ a{
 
 .dropdown-item{
     background-color: var(--pure);
+    transition: all 0.2s;
 }
 .dropdown-item:hover{
     background-color: var(--cus-secondary);
     color: var(--pure);
 }
 
-.imp_link{
-    margin-bottom: 5px;
+.quick_link{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.quick_link:hover{
+    background-color: #0073ff11;
+}
+
+.news_link{
+    
 }
 
 /* .imp_link::before{
@@ -82,10 +93,30 @@ a{
     width: 0.55em;
 } */
 
-.carousel-label{
+/* .carousel-label{
     background-color: rgba(0,0,0,0.5);
     color: var(--pure);
     width: 100%;
+} */
+
+.carousel_item{
+    position: relative;
+}
+
+.carousel_img{
+    max-height: 580px;
+    width:100%;
+    height: auto;
+}
+
+.carousel_img_label{
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    bottom: 10%;
+    left: 20%;
+    background-color: rgba(0,0,0,0.5);
+    color: var(--pure);
 }
 
 .side-tab{
@@ -143,6 +174,69 @@ a{
     rgba(255, 165, 0, 0.6), rgba(255, 255, 0, 0.6));
 }
 
+
 table, th, td {
     border:2px solid black;
   }
+
+/* Faculty Page */
+.faculty_card{
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    min-height: 330px;
+}
+
+.adminstaff_card{
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.faculty_img{
+    border-radius: 50%;
+    width: 128px;
+    height: 128px;
+
+}
+
+
+/* Image Overlay */
+.image_for_overlay{
+    position: relative;
+    width:86%;
+}
+
+.img_overlay{
+    display: block;
+    width: 100%;
+}
+
+.image_overlay_content{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    color: var(--pure);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image_overlay_content:hover{
+    opacity: 1;
+}
+
+.image_overlay_content > *{
+    transform: translateY(30px);
+    transition: transform 0.25s;
+}
+
+.image_overlay_content:hover > *{
+    transform: translateY(0);
+}   
+
+
+
