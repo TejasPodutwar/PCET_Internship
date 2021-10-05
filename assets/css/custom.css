@@ -41,6 +41,16 @@ a{
     z-index: 1000;
 }
 
+.nav-link{
+    font-size: 18px;
+    color: #fff;
+}
+
+.active-link{
+    background-color: #fff;
+    color:#262626;
+}
+
 .nav-item:hover ~ .nav-link{
     color: var(--cus-secondary);
 }
@@ -69,18 +79,18 @@ a{
     color: var(--pure);
 }
 
+
 .quick_link{
     text-decoration: none;
     font-size: 14px;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 .quick_link:hover{
     background-color: #0073ff11;
 }
 
-.news_link{
-    
-}
+
 
 /* .imp_link::before{
     background-color: #111;
@@ -104,7 +114,7 @@ a{
 }
 
 .carousel_img{
-    max-height: 580px;
+    max-height: 540px;
     width:100%;
     height: auto;
 }
