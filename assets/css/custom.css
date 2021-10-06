@@ -43,7 +43,6 @@ a{
 
 .nav-link{
     font-size: 18px;
-    color: #fff;
 }
 
 .active-link{
@@ -88,6 +87,8 @@ a{
 
 .quick_link:hover{
     background-color: #0073ff11;
+    color: var(--primary-blue);
+    border-bottom: 1px solid var(--primary-blue);
 }
 
 
@@ -116,7 +117,7 @@ a{
 .carousel_img{
     max-height: 540px;
     width:100%;
-    height: auto;
+    
 }
 
 .carousel_img_label{
