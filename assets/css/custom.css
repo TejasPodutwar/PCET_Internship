@@ -10,8 +10,12 @@ a{
     --cus-secondary: #40c4ec;
     --cus-primary: #f0f0f0;
     --pure: #fff;
+    --dark-blue:#07294d;
+    --border-radius: 5px;
 }
 
+
+/* Utilities */
 .cus-bg-secondary{
     background-color: var(--cus-secondary);
 }
@@ -28,6 +32,22 @@ a{
     text-align: justify;
 }
 
+.card-shadow{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
+.border-radius{
+    border-radius: var(--border-radius);
+}
+
+.t-border-radius{
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.b-border-radius{
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
 .mid-header{
 
     @media(max-width: 768px){
@@ -42,7 +62,7 @@ a{
 }
 
 .nav-link{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .active-link{
@@ -50,17 +70,17 @@ a{
     color:#262626;
 }
 
-.nav-item:hover ~ .nav-link{
-    color: var(--cus-secondary);
-}
+
+
 
 @media all and (min-width: 992px) {
+
 	.navbar .nav-item .dropdown-menu{ 
-        display: none; 
+        display: none;
     }
 	
     .navbar .nav-item:hover .dropdown-menu{ 
-        display: block; 
+        display: block;
     }
 	.navbar .nav-item .dropdown-menu{ 
         margin-top:0; 
@@ -86,12 +106,21 @@ a{
 }
 
 .quick_link:hover{
-    background-color: #0073ff11;
+    background-color: #F2F4F7;
     color: var(--primary-blue);
-    border-bottom: 1px solid var(--primary-blue);
+    border-left: 2px solid var(--primary-blue);
 }
 
+.vision_animate{
+    display: none;
+}
 
+@media (min-width: 768px) { 
+
+    .vision_animate{
+        display: block;
+    }
+ }
 
 /* .imp_link::before{
     background-color: #111;
@@ -115,18 +144,17 @@ a{
 }
 
 .carousel_img{
-    max-height: 540px;
-    width:100%;
-    
+    max-height: 450px;
+    width:100%; 
 }
 
 .carousel_img_label{
     position: absolute;
-    width: 60%;
+    width: 50%;
     text-align: center;
-    bottom: 10%;
-    left: 20%;
-    background-color: rgba(0,0,0,0.5);
+    bottom: 0;
+    left:0;
+    background-color: rgba(13, 110, 253,0.6);
     color: var(--pure);
 }
 
@@ -209,6 +237,27 @@ table, th, td {
 
 }
 
+/* Footer */
+.footer-top{
+    background-color: var(--dark-blue);
+    color: var(--pure);  
+}
+
+.footer-socials{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.footer-heading{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.social-icon{
+    height: 25px;
+    width: 25px;
+}
 
 /* Image Overlay */
 .image_for_overlay{

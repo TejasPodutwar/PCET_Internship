@@ -184,12 +184,12 @@
     </nav>
 
     <!-- Main Section -->
-    <div class="container-fluid mt-4">
+    <div class="container-fluid mt-4 mb-2">
         <div class="row g-3">
             <div class="col-lg-3 side-section">
                 <!-- Important Links -->
-                <div class="card mb-3">
-                    <h6 class="text-uppercase cus-bg-secondary text-light fw-bold p-2 mb-0" style="border-bottom: 1px solid #aaa;">Important Links</h6>
+                <div class="card mb-3 card-shadow border-radius">
+                    <h6 class="text-uppercase cus-bg-secondary text-light fw-bold p-2 mb-0 t-border-radius" style="border-bottom: 1px solid #aaa;">Important Links</h6>
                     <div class="card-body p-0">
                         <ul style="list-style: none;" class="p-0 m-0">
                             <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100">
@@ -213,7 +213,7 @@
                             <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100">
                                 Achievements 
                             </a>
-                            <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100">
+                            <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100 b-border-radius">
                                 Syllabus
                             </a>
                         </ul>         
@@ -221,7 +221,7 @@
                 </div>
                 
                 <!-- News/ Events -->
-                <div class="card mb-3">
+                <div class="card mb-3 card-shadow border-radius">
                     <h6 class="text-uppercase cus-bg-secondary text-light fw-bold p-2" style="border-bottom: 1px solid #aaa;">Announcements</h6>
                     <div class="card-body p-0">
                         <marquee scrolldelay="200" width="100%" direction="up" onmouseover="this.stop()" onmouseout="this.start()">
@@ -239,37 +239,20 @@
                 </div>
             
             </div>
-                
-            
-            <!-- 
-            <div class="card mb-3">
-                <h6 class="text-uppercase cus-bg-secondary text-light fw-bold p-2" style="border-bottom: 1px solid #aaa;">Announcements</h6>
-                <div class="card-body">
-                    <marquee scrolldelay="200" width="100%" direction="up" onmouseover="this.stop()" onmouseout="this.start()">
-                        <a href="#"> 
-                            <div class="mb-3 news_link">Students are requested to download the required course material from "Course Material" Link.</div>
-                        </a>
-                        <a href="#"> 
-                            <div class="mb-3 news_link">Students are requested to download the required course material from "Course Material" Link.</div>
-                        </a>
-                        <a href="#"> 
-                            <div class="mb-3 news_link">Students are requested to download the required course material from "Course Material" Link.</div>
-                        </a>
-                    </marquee>
-                </div>
-            </div> -->
 
             <div class="col-lg-9 px-3">
-                <div class="row bg-pure" style="border: 1px solid rgba(0,0,0,.125);">
+                <div class="row bg-pure card-shadow" style="border: 1px solid rgba(0,0,0,.125);">
                     
                     <!-- Carousel -->
                     <div class="owl-carousel owl-theme w-100 p-0">
                         <div class="carousel_item w-100">
-                            <img class="carousel_img img-fluid" src="./assets/img/pccoe-pcet-institute.jpg" alt="homepage_img1">
+                            
+                                <img class="carousel_img" src="./assets/img/pccoe-pcet-institute.jpg" alt="homepage_img1">
+                            
                             <span class="carousel_img_label fw-bold p-2 fs-5">Pimpri Chinchwad College of Engineering</span>
                         </div>
                         <div class="carousel_item w-100">
-                            <img class="carousel_img img-fluid" src="./assets/img/student-welfare-association.jpg" alt="homepage_img2">
+                            <img class="carousel_img" src="./assets/img/student-welfare-association.jpg" alt="homepage_img2">
                             <span class="carousel_img_label fw-bold p-2 fs-5">Welcome to Civil Department </span>
                         </div>
                     </div>
@@ -292,22 +275,25 @@
                         </div>
                     </div>
                     
-                    <!-- Vision -->
+                    <!-- Vision  & Mission -->
                     <div class="col-md-12 mb-3 p-0">
-                        <h4 class="m-section-heading fw-bold text-primary p-3">Vision</h4>
-                        <div class="p-3 cus-text-justify">
-                            To be recognized as one of the leading department in respect of professional education and innovation in the western region.
+                        <div class="row mx-0">
+                            <div class="col-md-8 px-0">
+                                <h4 class="m-section-heading fw-bold text-primary p-3">Vision</h4>
+                                <div class="p-3 cus-text-justify">
+                                    To be recognized as one of the leading department in respect of professional education and innovation in the western region.
+                                </div>
+                                <h4 class="m-section-heading fw-bold text-primary p-3">Mission</h4>
+                                <div class="cus-text-justify  p-3">
+                                    To develop a multidisciplinary approach to relate civil engineering challenges to social and human context through team spirit, right attitude, morals, and higher education.                            
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <lottie-player class="vision_animate img-fluid w-100" src="https://assets8.lottiefiles.com/packages/lf20_sk5h1kfn.json" mode="bounce" background="transparent"  speed="1"  style="height: 300px;"  loop  autoplay></lottie-player>
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Mission -->
-                    <div class="col-md-12 mb-3 p-0">
-                        <h4 class="m-section-heading fw-bold text-primary p-3">Mission</h4>
-                        <div class="cus-text-justify p-3">
-                            To develop a multidisciplinary approach to relate civil engineering challenges to social and human context through team spirit, right attitude, morals, and higher education.                            
-                        </div>
-                    </div>
-                    
                 </div>
                 
             </div>
@@ -315,8 +301,37 @@
         </div>
     </div>
 
+    <footer>
+        <div class="conatiner p-4 footer-top">
+            <div class="row">
+                <div class="footer-heading col-md-6">
+                    DEPARTMENT OF CIVIL ENGINEERING
+                </div>
+                <div class="footer-socials col-md-6">
+                     CONNECT WITH US: 
+                     <a href="#" class="px-2">
+                        <img class="social-icon pb-1" src="./assets/icons/facebook-brands.svg" alt="fb">
+                     </a>
+                     <a href="#" class="px-2">
+                        <img class="social-icon pb-1" src="./assets/icons/twitter-brands.svg" alt="twitter">
+                     </a>
+                     <a href="#" class="px-2">
+                        <img class="social-icon pb-1" src="./assets/icons/linkedin-brands.svg" alt="linkedin">
+                     </a>
+                     <a href="#" class="px-2">
+                        <img class="social-icon pb-1" src="./assets/icons/instagram-brands.svg" alt="insta">
+                     </a>
+                    
+                     
+                </div>
+            </div>
+            
+        </div>
+
+    </footer>
+
     
-    
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
