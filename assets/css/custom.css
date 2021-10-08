@@ -231,11 +231,27 @@ table, th, td {
 }
 
 .faculty_img{
-    border-radius: 50%;
-    width: 128px;
-    height: 128px;
+    border-radius: 15px;
+    width: 180px;
+    height: 180px;
 
 }
+
+.profile_btn{
+    width: 75%;
+    text-align: center;
+    background-color: var(--pure);
+    border: 1px solid var(--primary-blue);
+    color: var(--primary-blue);
+    transition: all 0.4s;
+    
+}
+
+.profile_btn:hover{
+    background-color: var(--primary-blue);
+    color: var(--pure);
+}
+
 
 /* Footer */
 footer{
