@@ -5,6 +5,10 @@ a{
     text-decoration: none;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 :root{
     --primary-blue: #0d6efd;
     --cus-secondary: #40c4ec;
@@ -136,6 +140,20 @@ a{
         display: block;
     }
  }
+
+ @media (min-width: 992px) { 
+    .home-side-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.announcement_marquee{
+    min-height: 250px;
+}
+
+
 
 /* .imp_link::before{
     background-color: #111;
