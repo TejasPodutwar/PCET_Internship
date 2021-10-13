@@ -36,6 +36,10 @@ a{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
 }
 
+.card-shadow-light{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+}
+
 .border-radius{
     border-radius: var(--border-radius);
 }
@@ -244,8 +248,9 @@ table, th, td {
 
 .faculty_img{
     border-radius: 15px;
-    width: 180px;
-    height: 180px;
+    width: 256px;
+    height: 256px;
+    border: 1px solid var(--cus-primary);
 
 }
 
