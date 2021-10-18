@@ -182,7 +182,7 @@ html{
     width:100%; 
 }
 
-.carousel_img_label{
+.carousel_img_label, .facility_img_label{
     position: absolute;
     width: 50%;
     text-align: center;
@@ -190,6 +190,11 @@ html{
     left:0;
     background-color: rgba(13, 110, 253,0.6);
     color: var(--pure);
+}
+
+.facility_img_label{
+    letter-spacing: 1px;
+    width: 100%;
 }
 
 .side-tab{
