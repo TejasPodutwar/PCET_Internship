@@ -71,3 +71,94 @@ data = [
 ];
 
 addOrderedTable(root, headings, data);
+
+
+////////////////////////////////
+headings = [
+    "Sr. No.",
+    "Name of student",
+    "Class",
+    "Name of course",
+    "Course Conducted by"
+]
+
+root = document.getElementById('other_courses_student_table1');
+data = [
+    ["Jaidip Patil", "TE Civil", "Career Edge-Knockdown the lockdown", "TCS iON"],
+    ["Avishkar Tele", "TE Civil", "English Score by British Council", "British Council"],
+    ["Mandlik Sahil", "TE Civil", "CEFR B2 in a test of English Proficiency", "British Council"],
+    ["Shivani Kamat", "TE Civil", "Earthquakes vs Buildings Engineering", "Udemy"],
+    ["Shivani Kamat", "TE Civil", "Engineering Ethics Building a strong foundation", "IEEE"],
+    ["Shivani Kamat", "TE Civil", "Transformational Leadership", "Alison"],
+    ["Shivani Kamat", "TE Civil", "Industry ready civil RCC module 4 weeks internship", "Know How organization."],
+    ["Shivani Kamat", "TE Civil", "English Score", "British Council"],
+    ["Simran Khan", "TE Civil", "English Proficiency", "British Council"],
+    ["Nikhil Bhanavse", "TE Civil", "Online course on “Geographical Information System”<br>Course Duration- 18 hours (28th September to 15th October, 2020)", "Indian Institute of Remote Sensing (IIRS), ISRO,<br>Dehradun"]
+]
+addOrderedTable(root, headings, data);
+
+root = document.getElementById('other_courses_student_table2');
+data = [
+    ["Aishwarya Bhore", "BE Civil", "Online course on “Geographical Information System” Course Duration- 18 hours (28th September to 15 th October, 2020)", "Indian Institute of Remote Sensing (IIRS), ISRO,<br>Dehradun"],
+    ["Shraddha Amrutkar", "BE Civil", "Online course on “Geographical Information System”<br>Course Duration- 18 hours (28th September to 15th October, 2020)", "Indian Institute of Remote Sensing (IIRS), ISRO,<br>Dehradun"],
+    ["Renuka Gaikwad", "BE Civil", "Online course on “Geographical Information System”<br>Course Duration- 18 hours (28th September to 15th October, 2020)", "Indian Institute of Remote Sensing (IIRS), ISRO, <br>Dehradun"]
+]
+addOrderedTable(root, headings, data);
+
+root = document.getElementById('other_courses_student_table3');
+data = [
+    ["Pallavi Salunkhe", "ME CM", "English Score by British Council", "British Council"],
+    ["Pallavi Salunkhe", "ME CM", "Primavera P6 Professional Advanced English - Student Kit", "Infinity PMC Private Limited"],
+    ["Pallavi Salunkhe", "ME CM", "AutoCAD Essentials", "A.P Shah Institute of Technology in association with AUTODESK"]
+]
+addOrderedTable(root, headings, data);
+
+headings = [
+    "Sr. No.",
+    "Name of Student",
+    "Name of Course",
+    "Course conducted by"
+]
+root = document.getElementById('other_courses_student_table4');
+data = [
+    ["Pallavi Salunkhe", "Accounting Fundamentals, Reading Financial Statement", "Corporate Finance Institute"],
+    ["Pradnya Lokhande", "Accounting Fundamentals, Reading Financial Statement", "Corporate Finance Institute"],
+    ["Krishna Gupta", "Introduction to Corporate Finance, Accounting Fundamentals, Reading Financial Statement, Initiating and Planning Project, Budgeting & Scheduling, Introduction to Corporate Finance", "Corporate Finance Institute and Coursera"],
+    ["Akash Govalkar", "Introduction to Corporate Finance, Accounting Fundamentals, Reading Financial Statement, Budgeting & Scheduling", "Corporate Finance Institute and Coursera"],
+    ["Akshay Pudke", "Accounting Fundamentals, Reading Financial Statement, Initiating and Planning Project, Budgeting & Scheduling", "Corporate Finance Institute and Coursera"]
+]
+addOrderedTable(root, headings, data);
+
+
+////////////////////////////////////////
+headings = [
+    "Sr. No.",
+    "Name of Student",
+    "Year and Division",
+    "Event",
+    "Organized by",
+    "Prize details"
+]
+
+root = document.getElementById("student_participation_and_awards_table1")
+data = [
+    ["Renuka Gaikwad", "TE", "Protective Equipment Making against Covid-19-Techno spark 2020", "PCCOER", "Winner"],
+    ["Hrutuja Chaudhari", "TE", "Paper Presentation- Techno spark 2020", "PCCOER", "Winner"],
+    ["Amarnath Tayde", "TE", "Township Planning", "VIIT, Pune", "Winner"],
+    ["Amarnath Tayde", "TE", "TEND- IT", "VIIT, Pune", "Winner"],
+    ["Ajay Pawar", "TE", "Nirmaan- Crossover", "VIIT, Pune", "Winner"],
+    ["Ajay Pawar", "TE", "Township Planning", "VIIT, Pune", "Winner"],
+    ["Parmeshwar Kolnure", "TE", "Township Planning", "VIIT, Pune", "Winner"],
+    ["Parmeshwar Kolnure", "TE", "TEND-IT", "VIIT, Pune", "Winner"],
+    ["Swapnil Hire", "TE", "Nirmaan- Crossover", "VIIT, Pune", "Winner"],
+    ["Swapnil Hire", "TE", "TEND-IT", "VIIT, Pune", "Runner-Up"]
+]
+addOrderedTable(root, headings, data)
+
+root = document.getElementById("student_participation_and_awards_table2");
+data = [
+    ["Mayuresh Bajbalkar", "BE", "Paper Presentation, Technospark2020", "PCCOE & R, Ravet", "1st Position"],
+    ["Rushikesh Bangar", "BE", "Paper Presentation,Technospark2020", "PCCOE & R, Ravet", "1st Position"],
+    // ["Pratik Pawar", "BE", "Paper Presentation, Technospark2020", ]
+]
+addOrderedTable(root, headings, data);
