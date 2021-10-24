@@ -20,6 +20,12 @@ html{
 
 
 /* Utilities */
+.cus-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .cus-bg-secondary{
     background-color: var(--cus-secondary);
 }
@@ -418,6 +424,38 @@ footer{
 .image_overlay_content:hover > *{
     transform: translateY(0);
 }   
+
+/* Publication */
+.copy_right_card{
+    position: relative;
+    max-height: 234px;
+}
+
+.copy_right_pic{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin: 0 auto;
+    top: -35px;
+    left: 0;
+    right: 0;
+    background-color: var(--pure);
+    border-radius: 50%;
+    
+}
+
+.copy_right_icon{
+    width: 100%;
+    height:auto;
+    border-radius: 50%;
+}
+
+.copy_right_body{
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: justify;
+    display: flex;
+}
 
 
 
