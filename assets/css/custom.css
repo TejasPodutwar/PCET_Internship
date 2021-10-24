@@ -5,6 +5,10 @@ a{
     text-decoration: none;
 }
 
+html{
+    scroll-behavior:smooth;
+}
+
 :root{
     --primary-blue: #0d6efd;
     --cus-secondary: #40c4ec;
@@ -34,6 +38,10 @@ a{
 
 .card-shadow{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
+.card-shadow-light{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
 }
 
 .border-radius{
@@ -133,6 +141,20 @@ a{
     }
  }
 
+ @media (min-width: 992px) { 
+    .home-side-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.announcement_marquee{
+    min-height: 250px;
+}
+
+
+
 /* .imp_link::before{
     background-color: #111;
     border-radius: 1em;
@@ -156,11 +178,11 @@ a{
 }
 
 .carousel_img{
-    max-height: 480px;
+    max-height: 520px;
     width:100%; 
 }
 
-.carousel_img_label{
+.carousel_img_label, .facility_img_label{
     position: absolute;
     width: 50%;
     text-align: center;
@@ -168,6 +190,11 @@ a{
     left:0;
     background-color: rgba(13, 110, 253,0.6);
     color: var(--pure);
+}
+
+.facility_img_label{
+    letter-spacing: 1px;
+    width: 100%;
 }
 
 .side-tab{
@@ -244,8 +271,9 @@ table, th, td {
 
 .faculty_img{
     border-radius: 15px;
-    width: 180px;
-    height: 180px;
+    width: 256px;
+    height: 256px;
+    border: 1px solid var(--cus-primary);
 
 }
 
@@ -262,6 +290,17 @@ table, th, td {
 .profile_btn:hover{
     background-color: var(--primary-blue);
     color: var(--pure);
+}
+
+/* Toppers Section */
+.topper_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topper_pic{
+    max-height:320px;
 }
 
 
