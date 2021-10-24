@@ -142,7 +142,7 @@ html{
  }
 
  @media (min-width: 992px) { 
-    .home-side-section{
+    .all-side-section{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -252,10 +252,6 @@ html{
     rgba(255, 165, 0, 0.6), rgba(255, 255, 0, 0.6));
 }
 
-
-table, th, td {
-    border:2px solid black;
-  }
 
 /* Faculty Page */
 .faculty_card{
