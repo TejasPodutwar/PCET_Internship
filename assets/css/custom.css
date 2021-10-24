@@ -428,7 +428,13 @@ footer{
 /* Publication */
 .copy_right_card{
     position: relative;
-    max-height: 234px;
+    max-height: 320px;
+}
+
+@media (min-width: 768px) { 
+    .copy_right_card{
+        max-height: 255px;
+    }
 }
 
 .copy_right_pic{
