@@ -85,7 +85,7 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active-link fw-bold" 
+                    <a class="nav-link dropdown-toggle text-light fw-bold" 
                         href="#" 
                         id="navbarDropdownMenuLink" 
                         data-bs-toggle="dropdown" 
@@ -93,11 +93,19 @@
                         aria-expanded="false">  
                         Academics
                     </a>
-                    <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="../academics/curriculum_overview.html">Curriculum Overview</a>
-                        <a class="dropdown-item" href="../academics/results.html">Results and Rank Holders</a>
-                        <a class="dropdown-item" href="../academics/timetables.html">Timetable</a>
-                    </div>
+                    <ul class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="../academics/curriculum_overview.html">Curriculum Overview</a></li> 
+                        <li><a class="dropdown-item" href="../pages/academics/results.html">Results and Rank Holders</a></li>
+                        <li><a class="dropdown-item" href="../academics/timetables.html">TimeTable</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenu1Link" href="#">Industry Interaction</a>
+                            <ul class="dropdown-menu droopy py-0" aria-labelledby="navbarDropdownMenu1Link">
+                                <li><a class="dropdown-item" href="../industry_interaction/overview.html">Overview</a></li> 
+                                <li><a class="dropdown-item" href="../industry_interaction/industry_tour.html">Industrial Tour</a></li>
+                                <li><a class="dropdown-item" href="../industry_interaction/industry_vist.html">Industrial Visit</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-light fw-bold" 
@@ -195,14 +203,23 @@
             
             <div class="col-lg-9">
                 <div class="col-md-12 bg-pure p-3" style="border: 1px solid rgba(0,0,0,.125);">
+                    <!-- Top Section -->
                     <div class="col-md-12 mb-3">
                         <h5 class="fw-bold text-primary section-heading pb-2">Results</h5>
                         <h6 class="fw-bold py-2">Padmashree B. G. Shirke Meritorious Civil Engineering Student Award for year 2019-20</h6>
-                        <p class="pb-3 cus-text-justify">
-                            Padmashree B. G. Shirke Meritorious Civil Engineering Student Award for year 2019-20 was given to Mr. Dhananjay Gaonkar 
-                            for his outstanding performance and remarkable achievements in academics during the course of Civil Engineering (2016-20) 
-                            by SHIRKE Group of Industries
-                        </p>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <p class="pb-3 cus-text-justify">
+                                    Padmashree B. G. Shirke Meritorious Civil Engineering Student Award for year 2019-20 was given to Mr. Dhananjay Gaonkar 
+                                    for his outstanding performance and remarkable achievements in academics during the course of Civil Engineering (2016-20) 
+                                    by SHIRKE Group of Industries
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+                                <img src="../../assets/img/testimonial2.jpg" alt="testimonial1" class="img-fluid img-thumbnail">
+                            </div>
+                        </div>
+                        
                     </div>
 
                     <h5 class="fw-bold text-primary section-heading py-2">List of Toppers (A.Y. 2019-20, Semester II)</h5>

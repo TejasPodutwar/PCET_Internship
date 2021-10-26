@@ -26,17 +26,17 @@
     <!-- Header -->
     <div class="container-fluid mx-auto">
         <div class="row">
-            <div class="col-md-3 d-flex align-items-center justify-content-center cus-bg-primary">
+            <div class="col-md-2 d-flex align-items-center justify-content-center cus-bg-primary">
                 <img class="img-fluid" style="height: 140px;width: 190px;" src="./assets/img/pccoe_logo.png" alt="pccoe_logo">
             </div>
-            <div class="col-md-6 p-2 pb-0 d-flex flex-column justify-content-center mid-header text-center">
+            <div class="col-md-8 p-2 pb-0 d-flex flex-column justify-content-center mid-header text-center">
                 <div class="h6 fw-bolder text-uppercase">
                     PIMPRI CHINCHWAD EDUCATION TRUST's
                 </div> 
                 <div class="h5 text-uppercase" style="color: #0d6efd;">
                     Pimpri Chinchwad College of Engineering
                 </div>
-                <div class="container" style="font-size: 14px;">
+                <div class="container-fluid text-center" style="font-size: 13px;">
                     <span class="fw-bold">NBA</span>  Accredited | <span class=" fw-bold">NAAC</span> Accredited with <span class=" fw-bold">'A'</span> Grade | An <span class=" fw-bold">Autonomous</span> Institute | <span class=" fw-bold">AICTE</span> Approved | ISO 9001: <span class="fw-bold">2015</span> Certified | Permanently Affiliated to <span class="fw-bold">SPPU</span>, Pune
                 </div> 
                 <!-- Department Heading  -->
@@ -44,7 +44,7 @@
                     <div class="h4 text-uppercase mb-0 p-2 fw-bolder" style="color: #0d6efd;">Department of Civil Engineering</div>
                 </div>
             </div>
-            <div class="col-md-3 d-flex align-items-center justify-content-center cus-bg-primary">
+            <div class="col-md-2 d-flex align-items-center justify-content-center cus-bg-primary">
                 <img class="img-fluid d-none d-md-block" style="height: 160px;width: 190px;" src="./assets/img/pcet_logo.png" alt="pcet_logo">
             </div>
         </div>
@@ -101,11 +101,19 @@
                         aria-expanded="false">  
                         Academics
                     </a>
-                    <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="./pages/academics/curriculum_overview.html">Curriculum Overview</a>
-                        <a class="dropdown-item" href="./pages/academics/results.html">Results and Rank Holders</a>
-                        <a class="dropdown-item" href="./pages/academics/timetables.html">TimeTable</a>
-                    </div>
+                    <ul class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="./pages/academics/curriculum_overview.html">Curriculum Overview</a></li> 
+                        <li><a class="dropdown-item" href="./pages/academics/results.html">Results and Rank Holders</a></li>
+                        <li><a class="dropdown-item" href="./pages/academics/timetables.html">TimeTable</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenu1Link" href="#">Industry Interaction</a>
+                            <ul class="dropdown-menu droopy py-0" aria-labelledby="navbarDropdownMenu1Link">
+                                <li><a class="dropdown-item" href="./pages/industry_interaction/overview.html">Overview</a></li> 
+                                <li><a class="dropdown-item" href="./pages/industry_interaction/industry_tour.html">Industrial Tour</a></li>
+                                <li><a class="dropdown-item" href="./pages/industry_interaction/industry_vist.html">Industrial Visit</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-light fw-bold" 
@@ -185,39 +193,7 @@
     <div class="container-fluid mt-4">
         <div class="row g-3 mx-3">
             <div class="col-lg-3 side-section all-side-section">
-                <!-- Important Links -->
-                <div class="card mb-3 col-lg-10 card-shadow border-radius">
-                    <h6 class="text-uppercase cus-bg-secondary text-light fw-bold p-2 mb-0 t-border-radius" style="border-bottom: 1px solid #aaa;">Important Links</h6>
-                    <div class="card-body p-0">
-                        <ul style="list-style: none;" class="p-0 m-0">
-                            <a href="http://www.pccoepune.com/" target="_blank" class="quick_link px-3 text-dark p-2 d-block w-100">
-                                PCCOE 
-                            </a>
-                            <a href="http://pcet.org.in/" class="quick_link px-3 text-dark p-2 d-block w-100">
-                                PCET
-                            </a>
-                            <a href="./pages/about_us/overview.html" class="quick_link px-3 text-dark p-2 d-block w-100">
-                                Department Overview 
-                            </a>
-                            <a href="./pages/about_us/infrastructure.html" class="quick_link px-3 text-dark p-2 d-block w-100">
-                                Infrastructure 
-                            </a>
-                            <a href="./pages/academics/results.html" class="quick_link px-3 text-dark p-2 d-block w-100">
-                                Results and Rank Holders
-                            </a>
-                            <a href="./pages/student/student_development_welfare.html" class="quick_link px-3 text-dark p-2 d-block w-100">
-                                Student Development and Welfare 
-                            </a>
-                            <a href="./pages/achievements/faculty_achievements.html" class="quick_link px-3 text-dark p-2 d-block w-100">
-                                Achievements 
-                            </a>
-                            <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100 b-border-radius">
-                                Syllabus
-                            </a>
-                        </ul>         
-                    </div>
-                </div>
-                
+
                 <!-- Video Section -->
                 <div class="card mb-3 col-lg-10 card-shadow border-radius">
                     <h6 
@@ -374,6 +350,72 @@
                             is equipped with latest facilities and equipments for extensive training to the undergraduate students.
                         </div>
                     </div>
+
+                    <!-- Important Links -->
+                    <div class="col-md-12 mb-3 p-0" style="background-color: #f7f7f7;">
+                        <h4 class="m-section-heading fw-bold text-primary p-3">Important Links</h4>
+                        <div class="p-3"></div>
+                        <div class="container">
+                            <div class="row gx-5 justify-content-center">
+                                <div class="col-sm-4 col-md-2 ">
+                                    <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_tuo5pczv.json"  
+                                        background="transparent"  
+                                        speed="1"  
+                                        loop  autoplay
+                                        style="height: 128px; width: 128px;"
+                                        class="img-fluid w-100"
+                                    >
+                                    </lottie-player>
+                                    <div class="text-center h5 text-primary"><a href="./pages/about_us/overview.html"> Department</a></div>
+                                </div>
+                                <div class="col-sm-4 col-md-2 ">
+                                    <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_L3lMP1.json"  
+                                        background="transparent"  
+                                        speed="1"  
+                                        loop  autoplay
+                                        style="height: 128px; width: 128px;"
+                                        class="img-fluid w-100"
+                                    >
+                                    </lottie-player>
+                                    <div class="text-center h5 text-primary"><a href="./pages/academics/results.html"> Rank Holders</a></div>
+                                </div>
+                                <div class="col-sm-4 col-md-2 ">
+                                    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_iw6xpoa9.json"  
+                                        background="transparent"  
+                                        speed="1"  
+                                        loop  autoplay
+                                        style="height: 128px; width: 128px;"
+                                        class="img-fluid w-100"
+                                    >
+                                    </lottie-player>
+                                    <div class="text-center h5 text-primary"><a href="./pages/about_us/infrastructure.html"> Infrastructure</a></div>
+                                </div>
+                                <div class=" col-sm-4 col-md-2">
+                                    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_qqonnlpd.json"  
+                                        background="transparent"  
+                                        speed="1"  
+                                        loop  autoplay
+                                        style="height: 128px; width: 128px; border-radius: 50%;"
+                                        class="img-fluid w-100"
+                                    >
+                                    </lottie-player>
+                                    <div class="text-center h5 text-primary"><a href="./pages/achievements/faculty_achievements.html"> Achievements</a></div>
+                                </div>
+                                <div class="col-sm-4 col-md-2 ">
+                                    <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_cyQ8b1.json"  
+                                        background="transparent"  
+                                        speed="1"  
+                                        loop  autoplay
+                                        style="height: 128px; width: 128px;"
+                                        class="img-fluid w-100"
+                                    >
+                                    </lottie-player>
+                                    <div class="text-center h5 text-primary"><a href="./pages/student/student_development_welfare.html">Student</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                     
                     <!-- Vision  & Mission -->
                     <div class="col-md-12 mb-3 p-0">
@@ -437,6 +479,30 @@
                         </div>
                     </div>
 
+                    <!-- Testimonial New -->
+                    <!-- <div class="col-md-12 mb-3 p-0">
+                        <section>
+                            <ul class="carousel">
+                              <li class="items main-pos"  id="1"><p>1</p></li>
+                              <li class="items right-pos" id="2">
+                                <img src="http://farm9.staticflickr.com/8337/8234123289_2b23aeaf06.jpg" />
+                              </li>
+                              <li class="items back-pos" id="3">
+                                <img src="http://farm9.staticflickr.com/8337/8234711202_831b23a2b7.jpg"/>
+                              </li>
+                              <li class="items back-pos" id="4"><iframe width="500" height="281" src="https://www.youtube.com/embed/szIEr2F61DU" frameborder="0" allowfullscreen></iframe></li>
+                              <li class="items back-pos" id="5">
+                                <iframe src="https://player.vimeo.com/video/19464611" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                              </li>
+                              <li class="items back-pos" id="6">
+                                <img src="http://woofie2.pixiq.com/files/cache/20030323_img_7465_3072_x_2048_619x413.jpg" />
+                              </li>
+                              <li class="items left-pos" id="7"><img src="http://www.mishes.com/wp-content/uploads/2011/12/FlickrMonday07.jpg"/>
+                              </li>
+                            </ul>
+                        </section>
+                    </div> -->
+                    
                 </div>
                 
             </div>
@@ -609,19 +675,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop:true,
-            dots:false,
-            autoplay:true,
-            autoplayTimeout:3000,
-            animateOut: 'fadeOut',
-            responsive:{
-                0:{
-                    items:1
-                }
-            }
-        })
-    </script>
+    <script src="./assets/js/home.js"></script>
 </html>
 

@@ -90,11 +90,19 @@
                         aria-expanded="false">  
                         Academics
                     </a>
-                    <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="../academics/curriculum_overview.html">Curriculum Overview</a>
-                        <a class="dropdown-item" href="../academics/results.html">Results and Rank Holders</a>
-                        <a class="dropdown-item" href="../academics/timetables.html">Timetable</a>
-                    </div>
+                    <ul class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="../academics/curriculum_overview.html">Curriculum Overview</a></li> 
+                        <li><a class="dropdown-item" href="../pages/academics/results.html">Results and Rank Holders</a></li>
+                        <li><a class="dropdown-item" href="../academics/timetables.html">TimeTable</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenu1Link" href="#">Industry Interaction</a>
+                            <ul class="dropdown-menu droopy py-0" aria-labelledby="navbarDropdownMenu1Link">
+                                <li><a class="dropdown-item" href="../industry_interaction/overview.html">Overview</a></li> 
+                                <li><a class="dropdown-item" href="../industry_interaction/industry_tour.html">Industrial Tour</a></li>
+                                <li><a class="dropdown-item" href="../industry_interaction/industry_vist.html">Industrial Visit</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-light fw-bold" 
@@ -195,9 +203,6 @@
                             <a href="#akgaikwad" class="quick_link px-3 text-dark p-2 d-block w-100">
                                 DR. A.K. GAIKWAD
                             </a>
-                            <a href="#pshinkar" class="quick_link px-3 text-dark p-2 d-block w-100">
-                                Mr P. A. SHINKAR
-                            </a>
                             <a href="#gnchangade" class="quick_link px-3 text-dark p-2 d-block w-100">
                                 MRS. J. N. CHANGADE
                             </a>
@@ -236,6 +241,9 @@
                             </a>
                             <a href="#ap-chandragade" class="quick_link px-3 text-dark p-2 d-block w-100 b-border-radius">
                                 MS. A. A. CHANDRAGADE
+                            </a>
+                            <a href="#pshinkar" class="quick_link px-3 text-dark p-2 d-block w-100">
+                                Mr P. A. SHINKAR
                             </a>
                         </ul>         
                     </div>
@@ -442,54 +450,6 @@
                                 </div>
                             </div>
                         </div>
-                </div>
-
-                <div class="faculty_card bg-pure p-3 m-2 card-shadow-light d-flex" id="pshinkar">
-                    <div class="row">
-                        <div class="col-md-4 d-flex flex-md-column justify-content-left align-items-center">
-                            <img src="../../assets/img/faculty/pshinkar.jpg" alt="faculty_pic" class="p-2 mt-3 faculty_img img-fluid card-shadow">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="fw-bold h5 p-2 mb-0 text-uppercase text-primary">Mr P. A. Shinkar</div>
-                            <div class="row p-2  d-flex justify-content-center align-items-center">
-                                <dt class="col-sm-4">Designation:</dt>
-                                <dd class="col-sm-8">
-                                    Associate Professor
-                                </dd>
-    
-                                <dt class="col-sm-4">Qualification:</dt>
-                                <dd class="col-sm-8">
-                                    M.Tech (T.E.P), Ph.D Pursuing
-                                </dd>
-    
-                                <dt class="col-sm-4">Experience:</dt>
-                                <dd class="col-sm-8">
-                                    9.1 Yrs
-                                </dd>
-    
-                                <dt class="col-sm-4">Area of Interest:</dt>
-                                <dd class="col-sm-8">
-                                    Transportation Engineering and Planning
-                                </dd>
-    
-                                <dt class="col-sm-4">Email Id:</dt>
-                                <dd class="col-sm-8">
-                                    praful.shinkar@pccoepune.org
-                                </dd>
-    
-                                <dt class="col-sm-4">Contact No.:</dt>
-                                <dd class="col-sm-8">
-                                    8469700326 
-                                </dd>
-                                <dd class="col-sm-4 mt-2">
-                                    <a href="#" class="p-2 profile_btn" target="_blank">View profile</a>
-                                </dd>
-                                <dd class="col-sm-8 mt-2">
-                                    <a href="https://scholar.google.com.tw/citations?hl=en&user=XSZZaiAAAAAJ" class="p-2 profile_btn" target="_blank">Google Scholar URL &#8594;</a>
-                                </dd>
-                            </div>
-                        </div>
-                    </div>
                 </div>
     
                 <div class="faculty_card bg-pure p-3 m-2 card-shadow-light d-flex" id="gnchangade">
@@ -1118,6 +1078,54 @@
                                 </div>
                             </div>
                         </div>
+                </div>
+
+                <div class="faculty_card bg-pure p-3 m-2 card-shadow-light d-flex" id="pshinkar">
+                    <div class="row">
+                        <div class="col-md-4 d-flex flex-md-column justify-content-left align-items-center">
+                            <img src="../../assets/img/faculty/pshinkar.jpg" alt="faculty_pic" class="p-2 mt-3 faculty_img img-fluid card-shadow">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="fw-bold h5 p-2 mb-0 text-uppercase text-primary">Mr P. A. Shinkar</div>
+                            <div class="row p-2  d-flex justify-content-center align-items-center">
+                                <dt class="col-sm-4">Designation:</dt>
+                                <dd class="col-sm-8">
+                                    Associate Professor
+                                </dd>
+    
+                                <dt class="col-sm-4">Qualification:</dt>
+                                <dd class="col-sm-8">
+                                    M.Tech (T.E.P), Ph.D Pursuing
+                                </dd>
+    
+                                <dt class="col-sm-4">Experience:</dt>
+                                <dd class="col-sm-8">
+                                    9.1 Yrs
+                                </dd>
+    
+                                <dt class="col-sm-4">Area of Interest:</dt>
+                                <dd class="col-sm-8">
+                                    Transportation Engineering and Planning
+                                </dd>
+    
+                                <dt class="col-sm-4">Email Id:</dt>
+                                <dd class="col-sm-8">
+                                    praful.shinkar@pccoepune.org
+                                </dd>
+    
+                                <dt class="col-sm-4">Contact No.:</dt>
+                                <dd class="col-sm-8">
+                                    8469700326 
+                                </dd>
+                                <dd class="col-sm-4 mt-2">
+                                    <a href="#" class="p-2 profile_btn" target="_blank">View profile</a>
+                                </dd>
+                                <dd class="col-sm-8 mt-2">
+                                    <a href="https://scholar.google.com.tw/citations?hl=en&user=XSZZaiAAAAAJ" class="p-2 profile_btn" target="_blank">Google Scholar URL &#8594;</a>
+                                </dd>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>  
         </div>
