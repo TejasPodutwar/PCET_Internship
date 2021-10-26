@@ -13,6 +13,8 @@ $('.owl-carousel').owlCarousel({
 })
 
 
+
+
 // //slideshow style interval
 // var autoSwap = setInterval( swap,2000);
 
