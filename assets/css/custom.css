@@ -170,11 +170,20 @@ html{
         display: flex;
         flex-direction: column;
         align-items: center;
+        
+    }
+}
+
+@media (min-width: 992px) { 
+    .home-side-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
 .announcement_marquee{
-    min-height: 250px;
+    min-height: 150px;
 }
 
 
@@ -226,8 +235,19 @@ html{
     top: 24px;
 }
 
+.side-tab1{
+    position: sticky;
+    top: 22px;
+}
+
 .second-side-tab{
-    position: fixed;
+    position: sticky;
+    top: 225px;
+}
+
+.third-side-tab{
+    position: sticky;
+    top: 460px;
 }
 
 .news_link{
