@@ -42,6 +42,10 @@ html{
     text-align: justify;
 }
 
+.cus-text-left{
+    text-align: left;
+}
+
 .card-shadow{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
 }
@@ -609,3 +613,5 @@ figure.testimonial .author h5 span {
 .owl-item.active .s_carousel_img_label1{
     animation: fadeInUp ease 1s 1s both;
 }
+
+/* Table Styling */
