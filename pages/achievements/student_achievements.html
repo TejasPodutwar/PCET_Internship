@@ -9,6 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="../../assets/css/custom.css">
 </head>
 <body class="cus-bg-primary">
@@ -219,7 +225,57 @@
                 </div>
             </div>
             
-            <div class="col-md-9 bg-pure p-3" style="border: 1px solid rgba(0,0,0,.125);">
+            <div class="col-lg-9 bg-pure p-4" style="border: 1px solid rgba(0,0,0,.125);">
+
+                <h5 class="fw-bold text-primary section-heading pb-2">Student Achievements</h5>
+                
+                <div class="student_achievements card-shadow owl-carousel owl-theme w-100 p-0 my-3">
+                    <div class="s_carousel_item w-100 ">
+                        <img class="carousel_img" src="../../assets/img/student_achievements/rotaryClub.jpg"  alt="homepage_img1">
+                        <div class="s_carousel_caption">
+                            <div class="s_carousel_img_label fw-bold p-2 h3">ROTARY CLUB</div>
+                            <div class="s_carousel_img_label1 p-2 h3">2nd Prize at Project Competition</div>
+                        </div>  
+                    </div>
+                    <div class="s_carousel_item w-100 ">
+                        <img class="carousel_img" src="../../assets/img/student_achievements/technoManager.jpg"  alt="homepage_img1">
+                        <div class="s_carousel_caption">
+                            <div class="s_carousel_img_label fw-bold p-2 h3">Techno Manager</div>
+                            <div class="s_carousel_img_label1 fw-bold p-2">1st Prize: at PCCOER Ravet, Pune.</div>
+                        </div>  
+                    </div>
+                    <div class="s_carousel_item w-100 ">
+                        <img class="carousel_img" src="../../assets/img/student_achievements/technoMaster.jpg"  alt="homepage_img1">
+                        <div class="s_carousel_caption">
+                            <div class="s_carousel_img_label fw-bold p-2 h3">Techno Manager</div>
+                            <div class="s_carousel_img_label1 fw-bold p-2">Runner-up: at PCCOER Ravet</div>
+                        </div>  
+                    </div>
+                    <div class="s_carousel_item w-100 ">
+                        <img class="carousel_img" src="../../assets/img/student_achievements/gandharva.jpg"  alt="homepage_img1">
+                        <div class="s_carousel_caption">
+                            <div class="s_carousel_img_label fw-bold p-2 h3">Nirmaan – Bridge Making</div>
+                            <div class="s_carousel_img_label1 fw-bold p-2" style="color: #40c4ec;">2nd Prize: “Gandharwa -2020” at VIIT, Pune</div>
+                        </div>  
+                    </div>
+                    <div class="s_carousel_item w-100 ">
+                        <img class="carousel_img" src="../../assets/img/student_achievements/bridgeModel1.jpg"  alt="homepage_img1">
+                        <div class="s_carousel_caption">
+                            <div class="s_carousel_img_label fw-bold p-2 h3">Bridge Model Making</div>
+                            <div class="s_carousel_img_label1 fw-bold p-2">2nd Prize: “INNOVISION -2020” at RSCOE, Pune</div>
+                        </div>  
+                    </div>
+                    <div class="s_carousel_item w-100 ">
+                        <img class="carousel_img" src="../../assets/img/student_achievements/bgShirke.jpg"  alt="homepage_img1">
+                        <div class="s_carousel_caption">
+                            <div class="s_carousel_img_label fw-bold p-2 h3">B. G. Shirke Vidyarthi Award</div>
+                            <div class="s_carousel_img_label1 fw-bold p-2" style="color: #40c4ec;">2nd Prize at Constro – 2020</div>
+                        </div>  
+                    </div>
+                    
+                </div>
+
+
                 <!-- Students section -->
                 <section>
                     <!-- <h2>Students achievements:</h2> -->
@@ -362,18 +418,50 @@
                             at Wutan Huatan Jisuan Jishu UGC Care Group-II Journal, Volume XVI, ISSUE VI, June 20200
                         </li>
                     </ol>
-
-
+                    
+                    <!-- Successful completion of Coursera Courses -->
                     <h3 class="fw-bold text-primary section-heading pb-2">Successful completion of Coursera Courses:</h3>
-                    <h4>UG Civil S.E.</h4>
-                    <div id="coursera_courses_student_table1"></div> <!-- S.E. -->
-                    <h4>UG Civil T.E.</h4>
-                    <div id="coursera_courses_student_table2"></div> <!-- B.E. -->
-                    <h4>UG Civil B.E.</h4>
-                    <div id="coursera_courses_student_table3"></div> <!-- T.E. -->
+                    <div class="container mt-4">
+                        
+                        <ul class="nav nav-pills nav-fill">
+                            <li class="nav-item">
+                              <a class="nav-link active" data-bs-toggle="pill" aria-current="page" href="#tab1">UG Civil S.E.</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-bs-toggle="pill" aria-current="page" href="#tab2">UG Civil T.E.</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-bs-toggle="pill" aria-current="page" href="#tab3">UG Civil B.E.</a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="tab1" class="tab-pane fade active show mt-3">
+                                <div class="table-responsive">
+                                    <div id="coursera_courses_student_table1"></div>
+                                </div>
+                                
+                            </div>
+
+                            <div id="tab2" class="tab-pane fade mt-3">
+                                <div class="table-responsive">
+                                    <div id="coursera_courses_student_table2"></div>
+                                </div>
+                            </div>
+
+                            <div id="tab3" class="tab-pane fade mt-3">
+                                <div class="table-responsive">
+                                    <div id="coursera_courses_student_table3"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
 
 
                     <h3 class="fw-bold text-primary section-heading pb-2">Online Courses Completed by SE, TE, BE and ME Civil (Construction Management) Students:</h3>
+                    
                     <div id="other_courses_student_table1"></div>
                     <div id="other_courses_student_table2"></div>
                     <div id="other_courses_student_table3"></div>
@@ -683,7 +771,23 @@
             /* height: 60vh; */
         }
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
     <script src="./table.js"></script>
     <script src="./student_achievements.js"></script>
+    <script>
+        
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            dots:false,
+            autoplay:true,
+            autoplayTimeout:5000,
+            items:1
+        })
+
+    </script>
 </body>
 </html>

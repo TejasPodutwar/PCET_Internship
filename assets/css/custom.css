@@ -42,6 +42,10 @@ html{
     text-align: justify;
 }
 
+.cus-text-left{
+    text-align: left;
+}
+
 .card-shadow{
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
 }
@@ -528,7 +532,7 @@ figure.testimonial img {
 	margin: 40px 0 0 10px;
 }
 figure.testimonial blockquote {
-	background-color: #fff;
+	background-color: var(--cus-secondary);
 	display: block;
 	font-size: 14px;
 	font-weight: 400;
@@ -541,7 +545,7 @@ figure.testimonial blockquote {
 figure.testimonial blockquote:before, figure.testimonial blockquote:after {
 	content: "\201C";
 	position: absolute;
-	color: var(--cus-secondary);
+	color: #fff;
 	font-size: 50px;
 	font-style: normal;
 }
@@ -560,7 +564,7 @@ figure.testimonial .arrow {
 	height: 0;
 	border-left: 0 solid transparent;
 	border-right: 25px solid transparent;
-	border-top: 25px solid #fff;
+	border-top: 25px solid var(--cus-secondary);
 	margin: 0;
 	position: absolute;
 }
@@ -583,3 +587,31 @@ figure.testimonial .author h5 span {
 	text-transform: none;
 	padding-left: 5px;
 } 
+
+/* Student Achievements */
+.s_carousel_caption{
+    position: absolute;
+    top:50%;
+    transform: translateY(50%);
+    left:10%;
+}
+
+.s_carousel_img_label{
+    background-color: rgba(255,255,255,0.7);
+    font-size: 40px;
+}
+
+.s_carousel_img_label1{
+    font-size: 30px;
+    color: var(--pure);
+}
+
+.owl-item.active .s_carousel_img_label{
+    animation: fadeInLeftBig ease 1s both;
+}
+
+.owl-item.active .s_carousel_img_label1{
+    animation: fadeInUp ease 1s 1s both;
+}
+
+/* Table Styling */
