@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../assets/css/custom.css">
 </head>
 <body class="cus-bg-primary">
@@ -226,6 +228,41 @@
                         <!--Activities Of Civil Engineering Student Association-->
                         <div class="col-md-12 mb-3">
                             <h4 class="section-heading fw-bold text-primary pb-2">Webinar Organized</h4>
+
+                            <!-- Carousel -->
+                    <div class="owl-carousel owl-theme ">
+                        <div class="carousel_item w-100" style="padding: 0 1rem;">
+                            <img src="../../assets/img/webinar_flyers/Picture1.jpg">
+                        </div>
+                        <div class="carousel_item w-100" style="padding: 0 1rem;">
+                            <img src="../../assets/img/webinar_flyers/Picture2.jpg">
+                        </div>
+                        <div class="carousel_item w-100" style="padding: 0 1rem;">
+                            <img src="../../assets/img/webinar_flyers/Picture3.jpg">
+                        </div>
+                        <div class="carousel_item w-100" style="padding: 0 1rem;">
+                            <img src="../../assets/img/webinar_flyers/Picture4.jpg">
+                        </div>
+                        <div class="carousel_item w-100" style="padding: 0 1rem;">
+                            <img src="../../assets/img/webinar_flyers/Picture5.jpg">
+                        </div>
+                        <div class="carousel_item w-100" style="padding: 0 1rem;">
+                            <img src="../../assets/img/webinar_flyers/Picture6.jpg">
+                        </div>
+                        <div class="carousel_item w-100" style="padding: 0 1rem;">
+                            <img src="../../assets/img/webinar_flyers/Picture7.jpg">
+                        </div>
+                        <div class="carousel_item w-100" style="padding: 0 1rem;">
+                            <img src="../../assets/img/webinar_flyers/Picture8.jpg">
+                        </div>
+                        <div class="carousel_item w-100" style="padding: 0 1rem;">
+                            <img src="../../assets/img/webinar_flyers/Picture9.jpg">
+                        </div>
+                        <div class="carousel_item w-100" style="padding: 0 1rem;">
+                            <img src="../../assets/img/webinar_flyers/Picture1.jpg">
+                        </div>
+
+                    </div>
 
                             <div class="accordion mt-3" id="accordian_faculty_achievements">
                                 
@@ -469,5 +506,24 @@
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            dots:true,
+            autoplay:true,
+            autoplayTimeout:3000,
+            responsive:{
+                0:{
+                    items:1
+                },
+                768:{
+                    items:2
+                }
+            }
+        })
+    </script>
 </body>
 </html>
