@@ -146,7 +146,6 @@
                         Student
                     </a>
                     <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="./pages/student/student_development_welfare.html">Student Development And Welfare</a>
                         <a class="dropdown-item" href="./pages/student/CIESA.html">Civil Engineering Students Association</a>
                         <a class="dropdown-item" href="./pages/student/technical_events.html">Technical events</a>
                         <a class="dropdown-item" href="./pages/student/sthaptya.html">Sthapatya 2019</a>
@@ -185,6 +184,21 @@
                         <a class="dropdown-item" href="./pages/achievements/media_coverage.html">Media Coverage</a>
                     </div>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-light fw-bold" 
+                        href="#" 
+                        id="navbarDropdownMenuLink" 
+                        data-bs-toggle="dropdown" 
+                        aria-haspopup="true" 
+                        aria-expanded="false">  
+                        Placement
+                    </a>
+                    <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="./pages/alumni/placement.html">Placement</a>
+                        <a class="dropdown-item" href="./pages/alumni/higherStudies.html">Higher Studies</a>
+                        <a class="dropdown-item" href="./pages/alumni/entrepreneurship.html">Entrepreneurship</a>
+                    </div>
+                </li>
                 <li class="nav-item">
                     <a href="./pages/contact/contact_us.html" class="nav-link text-light fw-bold">Contact</a>
                 </li>
@@ -195,7 +209,7 @@
     <!-- Main Section -->
     <div class="container-fluid mt-4">
         <div class="row g-3 mx-3">
-            <div class="col-lg-3 side-section all-side-section">
+            <div class="col-lg-3 side-section home-side-section" style="height: 100%;">
 
                 <!-- Video Section -->
                 <div class="card mb-3 col-lg-10 card-shadow border-radius">
@@ -224,10 +238,18 @@
                 </div>
 
                 <!-- Announcements -->
-                <div class="card mb-3 col-lg-10 card-shadow border-radius ">
+                <div class="card mb-3 col-lg-10 card-shadow border-radius">
                     <h6 class="text-uppercase cus-bg-secondary text-light fw-bold p-2 t-border-radius" style="border-bottom: 1px solid #aaa;">Announcements</h6>
                     <div class="card-body p-0">
                         <marquee scrolldelay="150" width="100%" direction="up" onmouseover="this.stop()" onmouseout="this.start()" class="announcement_marquee">
+                            <a href="./assets/pdfs/Circular for Engineering and Pharmacy Colleges.pdf" target="_blank"> 
+                                <div class="text-primary fw-bold px-3 p-2 quick_link">
+                                    AICTE Approval Letter 2020-21
+                                    <span>
+                                        <img src="./assets/img/new-gif.gif" alt="gif">
+                                    </span> 
+                                </div>
+                            </a>
                             <a href="./assets/pdfs/Circular for Engineering and Pharmacy Colleges.pdf" target="_blank"> 
                                 <div class="text-primary fw-bold px-3 p-2 quick_link">
                                     SPPU Circular Engineering and Pharmacy
@@ -236,24 +258,7 @@
                                     </span> 
                                 </div>
                             </a>
-                            <a href="./assets/pdfs/PCCOE-Examination Circular Third Year Engineering (2019 Pattern) SEM-I Insemester Examination Time 10.00 am To 10.40 am.pdf"
-                                target="_blank"> 
-                                <div class="text-primary fw-bold px-3 p-2 quick_link">
-                                    IN-SEM Time Table (T.E.)
-                                    <span>
-                                        <img src="./assets/img/new-gif.gif" alt="gif">
-                                    </span> 
-                                </div>
-                            </a>
-                            <a href="./assets/pdfs/PCCOE INSEM EXAMINATION CIRCULAR BACHELOR OF ENGINEERING (2015 COURSE) B.E (CIVIL) TIME -2.00 TO 2.40 PM.pdf"
-                                target="_blank"> 
-                                <div class="text-primary fw-bold px-3 p-2 quick_link">
-                                    IN-SEM Time Table (B.E.)
-                                    <span>
-                                        <img src="./assets/img/new-gif.gif" alt="gif">
-                                    </span> 
-                                </div>
-                            </a>
+                            
                             <a href="#"> 
                                 <div class="text-primary fw-bold px-3 p-2 quick_link">Academic Calender</div>
                             </a>
@@ -303,72 +308,6 @@
                     </div>
                 </div>
 
-                <!-- Testimonial -->
-                <!-- <div class="testimonial_wrapper p-2">
-    
-                    <div class="outer">
-                        
-                        <div class="testimonial card-shadow" style="--delay:-1">
-                            <div class="pic">
-                                <img src="https://randomuser.me/api/portraits/men/1.jpg">
-                            </div>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum.
-                            </p>
-                            <h3 class="title">WILLIAMSON</h3>
-                            <small class="post">- Web Developer</small>
-                        </div>
-                        
-                        <div class="testimonial card-shadow" style="--delay:0">
-                            <div class="pic">
-                                <img src="https://randomuser.me/api/portraits/men/2.jpg">
-                            </div>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum.
-                            </p>
-                            <h3 class="title">WILLIAMSON</h3>
-                            <small class="post">- Web Developer</small>
-                        </div>
-            
-                        <div class="testimonial card-shadow" style="--delay:1">
-                            <div class="pic">
-                                <img src="https://randomuser.me/api/portraits/men/3.jpg">
-                            </div>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum.
-                            </p>
-                            <h3 class="title">WILLIAMSON</h3>
-                            <small class="post">- Web Developer</small>
-                        </div>
-            
-            
-                        <div class="testimonial card-shadow" style="--delay:2">
-                            <div class="pic">
-                                <img src="https://randomuser.me/api/portraits/men/4.jpg">
-                            </div>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum.
-                            </p>
-                            <h3 class="title">WILLIAMSON</h3>
-                            <small class="post">- Web Developer</small>
-                        </div>
-            
-                        <div class="testimonial card-shadow" style="--delay:2">
-                            <div class="pic">
-                                <img src="https://randomuser.me/api/portraits/men/5.jpg">
-                            </div>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada vulputate nisi in fermentum. Vivamus ac libero quis nisi auctor pulvinar. Aenean sit amet lectus posuere, mattis massa eget, ullamcorper diam. Nunc sit amet felis eget arcu congue dictum.
-                            </p>
-                            <h3 class="title">WILLIAMSON</h3>
-                            <small class="post">- Web Developer</small>
-                        </div>
-                        
-                    </div>
-            
-                </div> -->
-
-            
             </div>
 
             <div class="col-lg-9 px-3">
@@ -389,16 +328,20 @@
                             <span class="carousel_img_label fw-bold p-2 fs-5">Campus at PCCOE</span>
                         </div>
                         <div class="carousel_item w-100">
-                            <img class="carousel_img" src="./assets/img/carousel/Campus_img2.jpg" alt="homepage_img2">
-                            <span class="carousel_img_label fw-bold p-2 fs-5">Campus at PCCOE</span>
-                        </div>
-                        <div class="carousel_item w-100">
                             <img class="carousel_img" src="./assets/img/carousel/Campus_img5.jpg" alt="homepage_img2">
                             <span class="carousel_img_label fw-bold p-2 fs-5">Campus at PCCOE</span>
                         </div>
                         <div class="carousel_item w-100">
                             <img class="carousel_img" src="./assets/img/carousel/Campus_img3.jpg" alt="homepage_img2">
                             <span class="carousel_img_label fw-bold p-2 fs-5">Campus at PCCOE</span>
+                        </div>
+                        <div class="carousel_item w-100">
+                            <img class="carousel_img" src="./assets/img/carousel/MOUWithUltraTech.jpg" alt="homepage_img2">
+                            <span class="carousel_img_label fw-bold p-2 fs-5">MOU With UltraTech</span>
+                        </div>
+                        <div class="carousel_item w-100">
+                            <img class="carousel_img" src="./assets/img/carousel/atalTunnel.jpg" alt="homepage_img2">
+                            <span class="carousel_img_label fw-bold p-2 fs-5">Study Tour at Atal Tunnel</span>
                         </div>
                     </div>
 
@@ -506,7 +449,7 @@
                     </div>
 
                     <!-- Testimonials -->
-                    <div class="col-md-12 mb-3 p-0">
+                    <!-- <div class="col-md-12 mb-3 p-0">
                         <h4 class="m-section-heading fw-bold text-primary p-3">Testimonials</h4>
                         <div class="owl-carousel owl-theme w-100 p-0">
                             <div class="carousel_item w-100">
@@ -527,6 +470,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="carousel_item w-100">
                                 <div class="row mx-0 cus-bg-primary">
                                     <div class="col-md-4 px-0">
@@ -546,8 +490,43 @@
                                 </div>
                             </div>
                         </div>
+                    </div> -->
+                    
+                    <!-- Testimonials -->
+                    <div class="col-md-12 p-0 cus-bg-primary">
+                        <h4 class="m-section-heading fw-bold text-primary p-3">Testimonials</h4>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <figure class="testimonial">
+                                    <blockquote class="cus-text-justify">
+                                        <p style="overflow-y: scroll; height: 170px;" class="p-1" >
+                                            Hello I am Mrunal Shripad Pophale , Bachelor's Student from Civil Engineering Department - PCCoE College. Firstly the Campus is Eye Catching. Faculties are very good , having very deep core knowledge of their respective fields. Frequent Assignment Solving , Unit Tests , Mock Vivas , Presentations makes student Anytime ready for University Exams. Labs are well equipped with high-quality Equipments. Overall It was amazing experience in PCCoE.
+                                        </p>    
+                                        
+                                      <div class="arrow"></div>
+                                    </blockquote>
+                                    <img src="./assets/img/testimonial/mrunal-pccoe.jpg" alt="MrunalPophale" class="card-shadow" />
+                                    <div class="author">
+                                      <h5>Mrunal Pophale</h5>
+                                      <p class="th-margin-remove text-muted">Civil Engineering, 2021 Batch</p>
+                                    </div>
+                                  </figure>
+                            </div>
+                            <div class="col-md-6">
+                                <figure class="testimonial">
+                                    <blockquote class="cus-text-justify">Some may call it "school" But, being school it also brings opportunity to have that everlasting friendship and camaraderie, at the end It leaves you with so many livish memories to cherish forever.
+                                      <div class="arrow"></div>
+                                    </blockquote>
+                                    <img src="./assets/img/testimonial/shivam-bondre.jpg" alt="Shivam Bondre" class="card-shadow"/>
+                                    <div class="author">
+                                      <h5>Shivam Bondre</h5>
+                                      <p class="th-margin-remove text-muted">Civil Engineering, 2022 Batch</p>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                        
                     </div>
-
                 </div>
                 
             </div>
@@ -722,4 +701,3 @@
     
     <script src="./assets/js/home.js"></script>
 </html>
-
