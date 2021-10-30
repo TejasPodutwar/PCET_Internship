@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="../../assets/css/custom.css">
 </head>
 <body class="cus-bg-primary">
@@ -215,26 +219,50 @@
 
     <!-- Main Section -->
     <div class="container-fluid mt-4">
-        <div class="row g-3">
-          <div class="col-lg-3">
-            <div class="card mb-3 card-shadow border-radius side-tab">
-                <h6 class="text-uppercase cus-bg-secondary text-light fw-bold p-2 mb-0 t-border-radius" style="border-bottom: 1px solid #aaa;">
-                    Alumni</h6>
-                <div class="card-body p-0">
-                    <ul style="list-style: none;" class="p-0 m-0">
-                        <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100">
-                            Entrepreneurs
-                        </a>
-                        <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100">
-                            Higher Studies
-                        </a>
-                        <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100">
-                            Placements
-                        </a>
-                    </ul>         
+        <div class="row g-3 mx-3">
+            
+            <div class="col-lg-3 all-side-section">
+                <div class="card col-lg-10 mb-3 card-shadow border-radius side-tab">
+                    <h6 class="text-uppercase cus-bg-secondary text-light fw-bold p-2 mb-0 t-border-radius" style="border-bottom: 1px solid #aaa;">
+                        Alumni</h6>
+                    <div class="card-body p-0">
+                        <ul style="list-style: none;" class="p-0 m-0">
+                            <a href="../alumni/placement.html" class="quick_link text-dark p-2 d-block w-100">
+                                <span>
+                                    <img    src="../../assets/icons/angle-double-right-solid.svg" 
+                                            style="height:22px; width: 22px;" 
+                                            alt="arrow"
+                                            class="pb-1"
+                                    >
+                                </span>
+                                Placements
+                            </a>
+                            <a href="../alumni/higherStudies.html" class="quick_link text-dark p-2 d-block w-100">
+                                <span>
+                                    <img    src="../../assets/icons/angle-double-right-solid.svg" 
+                                            style="height:22px; width: 22px;" 
+                                            alt="arrow"
+                                            class="pb-1"
+                                    >
+                                </span>
+                                Higher Studies
+                            </a>
+                            <a href="../alumni/entrepreneurship.html" class="quick_link text-dark p-2 d-block w-100">
+                                <span>
+                                    <img    src="../../assets/icons/angle-double-right-solid.svg" 
+                                            style="height:22px; width: 22px;" 
+                                            alt="arrow"
+                                            class="pb-1"
+                                    >
+                                </span> 
+                                Entrepreneurs
+                            </a>
+                            
+                        </ul>         
+                    </div>
                 </div>
             </div>
-          </div>
+
           <!--Higher Studies-->
           <div class="col-lg-9">
             <div class="col-md-12 bg-pure card-shadow p-3" style="border: 1px solid rgba(0,0,0,.125);">
@@ -243,7 +271,93 @@
                 <div class="col-md-12 mb-4">
                     <h5 class="fw-bold text-primary section-heading pb-2">Higher Studies</h5>
                     <div class="container px-0 mb-4">
-
+                        <div class="default1 owl-carousel owl-theme w-100 p-0">
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/iisc.jpg"  alt="homepage_img1">
+                                    <div class="text-center ">IISC Banglore</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/iit_bombay.jpg"  alt="homepage_img1">
+                                    <div class="text-center ">IIT Bombay</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/illinois.jpg"  alt="homepage_img1">
+                                    <div class="text-center ">University of Illinois</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/carolina.png"  alt="homepage_img1">
+                                    <div class="text-center ">North Carolina State University, USA</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/northern_uni.jpg"  alt="homepage_img1">
+                                    <div class="text-center ">North Eastern University</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/NICMAR.jpg"  alt="homepage_img1">
+                                    <div class="text-center ">NICMAR</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/nsu.jpg"  alt="homepage_img1">
+                                    <div class="text-center ">New South Wales, Australia</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/Texas.png"  alt="homepage_img1">
+                                    <div class="text-center ">Texas A&M University</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/warangal.jpg"  alt="homepage_img1">
+                                    <div class="text-center ">NIT Warangal</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/vjti.jpg"  alt="homepage_img1">
+                                    <div class="text-center ">VJTI Mumbai</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/allahbad.jpg"  alt="homepage_img1">
+                                    <div class="text-center ">NIT Allahabad</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/gov_karad.png"  alt="homepage_img1">
+                                    <div class="text-center ">Govt. Karad</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/gov_amravati.jpg"  alt="homepage_img1">
+                                    <div class="text-center ">Govt. Amravati</div>    
+                                </div>
+                            </div>
+                            <div class="carousel_item w-100 mx-3">
+                                <div class="container p-2">
+                                    <img class="higherStudy_logo" src="../../assets/img/higherStudies/nanded.png"  alt="homepage_img1">
+                                    <div class="text-center ">SGGS Nanded</div>    
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
 
@@ -651,7 +765,32 @@
         </div>
     </div>
 </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        $('.default1.owl-carousel').owlCarousel({
+            loop:true,
+            dots:false,
+            autoplay:true,
+            autoplayTimeout:2000,
+            animateOut: 'fadeOut',
+            responsive:{
+                0:{
+                    items:4
+                },
+                768:{
+                    items:6
+                }
+            }
+        })
+
+
+
+    </script>
 </body>
 </html>
 
