@@ -53,7 +53,7 @@
                     <a href="../../index.html" class="nav-link text-light fw-bold">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-link fw-bold" 
+                    <a class="nav-link dropdown-toggle text-light fw-bold" 
                         href="#" 
                         id="navbarDropdownMenuLink" 
                         data-bs-toggle="dropdown" 
@@ -61,12 +61,28 @@
                         aria-expanded="false">
                         About Us
                     </a>
-                    <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
+                    <ul class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item pb-2" href="../about_us/overview.html">Overview</a>
                         <a class="dropdown-item" href="../about_us/hod_desk.html">HOD Desk</a>
                         <a class="dropdown-item" href="../about_us/bos_civil.html">BOS Civil</a>
-                        <a class="dropdown-item" href="../about_us/infrastructure.html">Infrastructure</a>
-                    </div>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenu1Link" href="#">Civil Engineering</a>
+                            <ul class="dropdown-menu droopy py-0" aria-labelledby="navbarDropdownMenu1Link">
+                                <li><a class="dropdown-item" href="../civil_dept/opportunities.html">Opportunities</a></li> 
+                                <li><a class="dropdown-item" href="../civil_dept/branches.html">Branches</a></li>
+                                <li><a class="dropdown-item" href="../civil_dept/software_used.html">Softwares Used</a></li>
+                                <li><a class="dropdown-item" href="../civil_dept/prosperity.html">Prosperity</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenu1Link" href="#">Facilities</a>
+                            <ul class="dropdown-menu droopy py-0" aria-labelledby="navbarDropdownMenu1Link">
+                                <li><a class="dropdown-item" href="../about_us/infra_overview.html">Overview</a></li> 
+                                <li><a class="dropdown-item" href="../about_us/labs.html">Laboratories</a></li>
+                                <li><a class="dropdown-item" href="../about_us/software_available.html">Softwares Available</a></li>
+                               </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-light fw-bold" 
@@ -93,7 +109,8 @@
                     </a>
                     <ul class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="../academics/curriculum_overview.html">Curriculum Overview</a></li> 
-                        <li><a class="dropdown-item" href="../academics/results.html">Results and Rank Holders</a></li>
+                        <li><a class="dropdown-item" href="../academics/results.html">Results</a></li>
+                        <li><a class="dropdown-item" href="../academics/results.html">Rank Holders</a></li>
                         <li><a class="dropdown-item" href="../academics/timetables.html">TimeTable</a></li>
                         <li class="dropdown-submenu">
                             <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenu1Link" href="#">Industry Interaction</a>
@@ -117,7 +134,7 @@
                     <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="../research/overview.html">Overview</a>
                         <a class="dropdown-item" href="../research/publications.html">Publications</a>
-                        <a class="dropdown-item" href="../research/rndActivities.html">R & D Activities</a>
+                        <a class="dropdown-item" href="../research/publications.html">SIG</a>
                         <a class="dropdown-item" href="../research/dev_programmes.html">Development Interactions</a>
                         <a class="dropdown-item" href="../research/faculty_interation.html">Faculty Interaction</a>
                         <a class="dropdown-item" href="../research/funding_proposal.html">Funding Proposal</a>
@@ -134,6 +151,7 @@
                     </a>
                     <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="../student/CIESA.html">Civil Engineering Students Association</a>
+                        <a class="dropdown-item" href="../student/chapters.html">Professional Chapters</a>
                         <a class="dropdown-item" href="../student/technical_events.html">Technical events</a>
                         <a class="dropdown-item" href="../student/sthaptya.html">Sthapatya 2019</a>
                         <a class="dropdown-item" href="../student/non_technical_events.html">Non-Technical Events</a>
@@ -178,7 +196,7 @@
                         data-bs-toggle="dropdown" 
                         aria-haspopup="true" 
                         aria-expanded="false">  
-                        Placement
+                        Alumni
                     </a>
                     <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="../alumni/placement.html">Placement</a>
@@ -195,23 +213,52 @@
 
     <!-- Main Section -->
     <div class="container-fluid mt-4">
-        <div class="row g-3">
-            <div class="col-lg-3">
-                <div class="card mb-3 card-shadow border-radius side-tab">
+        <div class="row g-3 mx-3">
+            <div class="col-lg-3 all-side-section">
+                <div class="card col-lg-10 mb-3 card-shadow border-radius side-tab">
                     <h6 class="text-uppercase cus-bg-secondary text-light fw-bold p-2 mb-0 t-border-radius" style="border-bottom: 1px solid #aaa;">
                         Events</h6>
                     <div class="card-body p-0">
                         <ul style="list-style: none;" class="p-0 m-0">
-                            <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100">
-                                Webinar
+                            <a href="../events/webinar.html" class="quick_link text-dark p-2 d-block w-100">
+                                <span>
+                                    <img    src="../../assets/icons/angle-double-right-solid.svg" 
+                                            style="height:22px; width: 22px;" 
+                                            alt="arrow"
+                                            class="pb-1"
+                                    >
+                                </span> 
+                                Webinars
                             </a>
-                            <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100">
-                                Guest Lectures
-                            </a>
-                            <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100">
+                            <a href="../events/guest_lectures.html" class="quick_link text-dark p-2 d-block w-100">
+                              <span>
+                                  <img    src="../../assets/icons/angle-double-right-solid.svg" 
+                                          style="height:22px; width: 22px;" 
+                                          alt="arrow"
+                                          class="pb-1"
+                                  >
+                              </span> 
+                              Guest Lectures
+                          </a>
+                            <a href="../events/workshop.html" class="quick_link text-dark p-2 d-block w-100">
+                                <span>
+                                    <img    src="../../assets/icons/angle-double-right-solid.svg" 
+                                            style="height:22px; width: 22px;" 
+                                            alt="arrow"
+                                            class="pb-1"
+                                    >
+                                </span>
                                 Workshops
                             </a>
-                            <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100 b-border-radius">
+                            
+                            <a href="../events/competitions.html" class="quick_link text-dark p-2 d-block w-100 b-border-radius">
+                                <span>
+                                    <img    src="../../assets/icons/angle-double-right-solid.svg" 
+                                            style="height:22px; width: 22px;" 
+                                            alt="arrow"
+                                            class="pb-1"
+                                    >
+                                </span>
                                 Competitions and Exhibitions
                             </a>
                         </ul>         
@@ -220,241 +267,271 @@
             </div>
             <!---->
             <div class="col-lg-9">
-                <div class="col-md-12 bg-pure" style="border: 1px solid rgba(0,0,0,.125);">
+                <div class="col-md-12 bg-pure card-shadow" style="border: 1px solid rgba(0,0,0,.125);">
                     <div class="row">
                         
                         <!--Activities Of Civil Engineering Student Association-->
                         <div class="col-md-12 mb-3">
                             <h4 class="m-section-heading fw-bold text-primary p-3 pb-2">Workshops Organized</h4>
-                            <div class="p-3 cus-text-justify">                           
+                            <div class="p-3 cus-text-justify">  
+                                
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                      <div class="card h-100">
+                                      <img src="../../assets/img/workshop(1).jpg" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">ISTE approved one days workshop on “Effective Teaching Methodology for Engineering Mechanics 2019”
+                                        </h5>
+                                        <p class="card-text">  Resource person: Prof. Dr. M. R. Wakchaure, Dr. U. R. Awari, Dr. Y. L. Bhirud, Mr. A. K. Gaikwad <br>
+                                            Beneficiary: Faculties from SPPU and other universities (100) <br>
+                                            Date: 27th July 2019 <br>
+                                            Coordinator: Mr. A.K. Gaikwad. <br>
+                                        </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100">
+                                      <img src="../../assets/img/workshop(2).jpg" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">ISTE approved one days workshop on “ Effective Teaching Methodology of Audit Course- I (Environmental Studies –I) ”
+                                        </h5>
+                                        <p class="card-text">Resource person: Dr. S. S. Shastri, Dr. A. B. More, Dr. Rahul Karale, Dr. P.P. Walvekar, Dr. S. T. Mali, Mr. D. S. Lal, Mr. T. S. Khambekar <br>
+                                            Beneficiary: Faculties from SPPU and other universities (52) <br>
+                                            Date: 24th August, 2019 <br>
+                                            Coordinator: Dr. S. T. Mali <br>
+                                        </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100">
+                                      <img src="../../assets/img/workshop(3).jpg" class="card-img-top" alt="...">
+                                      <div class="card-body">
+                                        <h5 class="card-title">ISTE approved two days workshop on “Effective Teaching Methodology for Engineering Mechanics”</h5>
+                                        <p class="card-text">Resource person: Prof. Dr. M. R. Wakchaure, Dr. U. R. Awari, Mr. A. K. Gaikwad, Mr. P Pingale <br>
+                                            Beneficiary: Faculties from SPPU and other universities (49) <br>
+                                            Date: 3rd to 5th January 2019 <br>
+                                            Coordinator: Mr. A.K. Gaikwad. <br>
+                                        </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                      <div class="card h-100">
+                                            <img src="../../assets/img/workshop(4).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Two days state level workshop on “Future of Concrete Technology” sponsored by SPPU under Quality improvement Programme and supported by QCFI Pune.
+                                              </h5>
+                                              <p class="card-text">Resource person: Dr. J. D. BapatMr. Amit HaridasMr. Vijay Ghugre,Mr. Yusuf Inamdar Dr. Hemant Dhonde, Mr. Amol BotreMr. U. M. Paranjpe, Mr. S. M. Adsar, Dr. S. V. Patankar, Mr. A. K. Gaikwad, Mr. S. B. Gorade <br>
+                                                Beneficiary: Faculties from SPPU and other universities (34) <br>
+                                                Date: 15th to 16th February 2019 <br>
+                                                Coordinator: Mrs. J.N.Changade. <br>
+                                              </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100">
+                                            <img src="../../assets/img/workshop(5).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Workshop on “ Artificial Neural Networks and its Applications in Civil Engineering”
+                                              </h5>
+                                              <p class="card-text">Resource person: Prof. Shreenivas N. Londhe, Chairman Board of Studies, Civil Engineering, SPPU, Pune <br>
+                                                Beneficiary: TE, BE Civil students and faculties (50) <br>
+                                                Date: 1st March 2019 <br>
+                                                Coordinator: Dr. S. T. Mali  <br>
+                                              </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100">
+                                            <img src="../../assets/img/workshop(6).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Experts Lecture on “Financial aspects of Construction projects”
+                                              </h5>
+                                              <p class="card-text">Resource person: Mr. S.S.Gaikwad Asst. Prof. MBA Department, PCCOE <br>
+                                                Beneficiary: BE Civil Students <br>
+                                                Date: 11th Feb 2019 <br>
+                                                Coordinator: Mr. R.S. Chaudhari <br>
+                                              </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+    
+                                <br>
+
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                      <div class="card h-100">
+                                            <img src="../../assets/img/workshop(7).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Experts Lecture on “Mumbai Metro line III”
+                                            </h5>
+                                              <p class="card-text">Resource person: Malkit Singh Reyad Deputy Engineer, Mumbai Metro. <br>
+                                                Beneficiary: BE Civil Students <br>
+                                                Date: 20th March 2019 <br>
+                                                Coordinator: Mr. R.S. Chaudhari <br>
+                                              </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100">
+                                            <img src="../../assets/img/workshop(8).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Experts Lecture on “Building Information Modelling”
+                                            </h5>
+                                              <p class="card-text">Resource person: Mr. Yatin Gupta, Managing Director (Frame Learning Solutions, Bund Garden, Pune) <br>
+                                                Beneficiary: SE Civil Students <br>
+                                                Date: 1st April 2019 <br>
+                                                Coordinator: Ms. Anushree Chandragade <br>
+                                              </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100">
+                                            <img src="../../assets/img/workshop(9).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Experts Lecture on “Business opportunities in Civil Engineering”</h5>
+                                              <p class="card-text">Resource person: Mr. Gaurav Jambhalkar <br>
+                                                Beneficiary: SE Civil Students <br>
+                                                Date: 7th January 2019 <br>
+                                                Coordinator: Mr. S. P. Gaikwad <br>
+                                              </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                      <div class="card h-100">
+                                            <img src="../../assets/img/workshop(10).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Expert lecture on the topic “My journey along with Global aspect of Engineering”
+                                             </h5>
+                                              <p class="card-text">Resource person: Mr. Saurabh Bedmutha <br>
+                                                Beneficiary: SE, TE and BE Civil Students <br>
+                                                Date: 30th January 2019 <br>
+                                                Coordinator: Mr. S. P. Gaikwad <br>
+                                              </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100">
+                                            <img src="../../assets/img/workshop(11).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">ISTE approved workshop on “Standard Test Methods for Analysis of Wastewater”</h5>
+                                              <p class="card-text"> Resource person: Dr. Mrs. Venna Doss, Dr. Rahul Karale,Dr. A. B. More, Dr. S. T. Mali <br>
+                                                Beneficiary: Faculties from SPPU and other universities (52) <br>
+                                                Date: 15th June, 2018 <br>
+                                                Coordinator: Dr. S T Mali, Mr. T. S. Khambekar <br>
+                                              </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                        <img src="../../assets/img/workshop(12).jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                              <h5 class="card-title">ISTE approved two days workshop on “Effective Teaching Methodology for Strength of Materials”
+                                              </h5>
+                                              <p class="card-text">Resource person: Prof. Dr. M. Wakchaure, Dr. U. R. Awari, Dr.S. R. Parekar, Dr. M. R. Shiyekar, Dr. H. R. Magarpatil, Dr. M.A. Mahajan, Mr. S. B. Gorade <br>
+                                                Beneficiary: Faculties from SPPU and other universities (35) <br>
+                                                Date: 13th and 14th June 2018 <br>
+                                                Coordinator: Mr. S. B. Gorade, Mrs. R. R. Purohit <br>
+                                              </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <br>
+
+
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                      <div class="card h-100">
+                                            <img src="../../assets/img/workshop(13).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Experts Lecture on “Realities of the career and job world ”
+                                              </h5>
+                                              <p class="card-text">Resource person: Mr. Saurabh Sharma, HR at Potter’s Earth <br>
+                                                Beneficiary: TE Civil Students <br>
+                                                Date: 28/09/2018 <br>
+                                                Coordinator: Mr. Swapnil D. Kurhade <br>
+                                              </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100">
+                                            <img src="../../assets/img/workshop(14).jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Experts Lecture on “Construction of Marine Structures (Port & Harbours)”</h5>
+                                              <p class="card-text">
+                                                Resource person: Er. Prafulla Pagnis <br>
+                                                Beneficiary: TE Civil Students <br>
+                                                Date: 20th August 2018 <br>
+                                                Coordinator: Mr. S. P. Gaikwad <br>
+                                              </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100">
+                                            <img src="../../assets/img/workshop(15).jfif" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">Experts Lecture on “Dynamic Analysis of RCC Building”
+                                              </h5>
+                                              <p class="card-text">
+                                                Resource person: Mrs. J. P. Bhusari
+                                                Associate Professor (SCOE, Vadgaon) <br>
+                                                Beneficiary: BE Civil Students <br>
+                                                Date: 28th September 2018 <br>
+                                                Coordinator: Mrs. K. D. Dhapekar <br>
+                                              </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row row-cols-1 row-cols-md-3 g-4">
+                                    <div class="col">
+                                      <div class="card h-100">
+                                        <img src="../../assets/img/workshop(16).jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Experts Lecture on “Career in Civil Engineering”
+                                          </h5>
+                                          <p class="card-text">
+                                            Resource person: Mr. Dattatray Yadav
+                                            Director, DYP Infraprojects PVT. LTD <br>
+                                            Beneficiary: SE Civil Students <br>
+                                            Date: 10th September 2018 <br>
+                                            Coordinator: Mr. S. D. Kurhade <br>
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            
+                                <br>
                             </div>
-                            <div class="card-group">
-                                <div class="card">
-                                  <img src="../../assets/img/workshop(1).jpg" class="card-img-top" alt="...">
-                                  <div class="card-body">
-                                    <h5 class="card-title">ISTE approved one days workshop on “Effective Teaching Methodology for Engineering Mechanics 2019”
-                                    </h5>
-                                    <p class="card-text">  Resource person: Prof. Dr. M. R. Wakchaure, Dr. U. R. Awari, Dr. Y. L. Bhirud, Mr. A. K. Gaikwad <br>
-                                        Beneficiary: Faculties from SPPU and other universities (100) <br>
-                                        Date: 27th July 2019 <br>
-                                        Coordinator: Mr. A.K. Gaikwad. <br>
-                                    </p>
-                                    <p class="card-text"><small class="text-muted"></small></p>
-                                  </div>
-                                </div>
-                                <div class="card">
-                                  <img src="../../assets/img/workshop(2).jpg" class="card-img-top" alt="...">
-                                  <div class="card-body">
-                                    <h5 class="card-title">ISTE approved one days workshop on “ Effective Teaching Methodology of Audit Course- I (Environmental Studies –I) ”
-                                    </h5>
-                                    <p class="card-text">Resource person: Dr. S. S. Shastri, Dr. A. B. More, Dr. Rahul Karale, Dr. P.P. Walvekar, Dr. S. T. Mali, Mr. D. S. Lal, Mr. T. S. Khambekar <br>
-                                        Beneficiary: Faculties from SPPU and other universities (52) <br>
-                                        Date: 24th August, 2019 <br>
-                                        Coordinator: Dr. S. T. Mali <br>
-                                    </p>
-                                    <p class="card-text"><small class="text-muted"></small></p>
-                                  </div>
-                                </div>
-                                <div class="card">
-                                  <img src="../../assets/img/workshop(3).jpg" class="card-img-top" alt="...">
-                                  <div class="card-body">
-                                    <h5 class="card-title">ISTE approved two days workshop on “Effective Teaching Methodology for Engineering Mechanics”</h5>
-                                    <p class="card-text">Resource person: Prof. Dr. M. R. Wakchaure, Dr. U. R. Awari, Mr. A. K. Gaikwad, Mr. P Pingale <br>
-                                        Beneficiary: Faculties from SPPU and other universities (49) <br>
-                                        Date: 3rd to 5th January 2019 <br>
-                                        Coordinator: Mr. A.K. Gaikwad. <br>
-                                    </p>
-                                    <p class="card-text"><small class="text-muted"></small></p>
-                                  </div>
-                                </div>
-                            </div>
-                            <div class="card-group">
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(4).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Two days state level workshop on “Future of Concrete Technology” sponsored by SPPU under Quality improvement Programme and supported by QCFI Pune.
-                                      </h5>
-                                      <p class="card-text">Resource person: Dr. J. D. BapatMr. Amit HaridasMr. Vijay Ghugre,Mr. Yusuf Inamdar Dr. Hemant Dhonde, Mr. Amol BotreMr. U. M. Paranjpe, Mr. S. M. Adsar, Dr. S. V. Patankar, Mr. A. K. Gaikwad, Mr. S. B. Gorade <br>
-                                        Beneficiary: Faculties from SPPU and other universities (34) <br>
-                                        Date: 15th to 16th February 2019 <br>
-                                        Coordinator: Mrs. J.N.Changade. <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(5).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Workshop on “ Artificial Neural Networks and its Applications in Civil Engineering”
-                                      </h5>
-                                      <p class="card-text">Resource person: Prof. Shreenivas N. Londhe, Chairman Board of Studies, Civil Engineering, SPPU, Pune <br>
-                                        Beneficiary: TE, BE Civil students and faculties (50) <br>
-                                        Date: 1st March 2019 <br>
-                                        Coordinator: Dr. S. T. Mali  <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(6).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Experts Lecture on “Financial aspects of Construction projects”
-                                      </h5>
-                                      <p class="card-text">Resource person: Mr. S.S.Gaikwad Asst. Prof. MBA Department, PCCOE <br>
-                                        Beneficiary: BE Civil Students <br>
-                                        Date: 11th Feb 2019 <br>
-                                        Coordinator: Mr. R.S. Chaudhari <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-group">
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(7).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Experts Lecture on “Mumbai Metro line III”
-                                    </h5>
-                                      <p class="card-text">Resource person: Malkit Singh Reyad Deputy Engineer, Mumbai Metro. <br>
-                                        Beneficiary: BE Civil Students <br>
-                                        Date: 20th March 2019 <br>
-                                        Coordinator: Mr. R.S. Chaudhari <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(8).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Experts Lecture on “Building Information Modelling”
-                                    </h5>
-                                      <p class="card-text">Resource person: Mr. Yatin Gupta, Managing Director (Frame Learning Solutions, Bund Garden, Pune) <br>
-                                        Beneficiary: SE Civil Students <br>
-                                        Date: 1st April 2019 <br>
-                                        Coordinator: Ms. Anushree Chandragade <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(9).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Experts Lecture on “Business opportunities in Civil Engineering”</h5>
-                                      <p class="card-text">Resource person: Mr. Gaurav Jambhalkar <br>
-                                        Beneficiary: SE Civil Students <br>
-                                        Date: 7th January 2019 <br>
-                                        Coordinator: Mr. S. P. Gaikwad <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-group">
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(10).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Expert lecture on the topic “My journey along with Global aspect of Engineering”
-                                     </h5>
-                                      <p class="card-text">Resource person: Mr. Saurabh Bedmutha <br>
-                                        Beneficiary: SE, TE and BE Civil Students <br>
-                                        Date: 30th January 2019 <br>
-                                        Coordinator: Mr. S. P. Gaikwad <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(11).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">ISTE approved workshop on “Standard Test Methods for Analysis of Wastewater”</h5>
-                                      <p class="card-text"> Resource person: Dr. Mrs. Venna Doss, Dr. Rahul Karale,Dr. A. B. More, Dr. S. T. Mali <br>
-                                        Beneficiary: Faculties from SPPU and other universities (52) <br>
-                                        Date: 15th June, 2018 <br>
-                                        Coordinator: Dr. S T Mali, Mr. T. S. Khambekar <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(12).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">ISTE approved two days workshop on “Effective Teaching Methodology for Strength of Materials”
-                                      </h5>
-                                      <p class="card-text">Resource person: Prof. Dr. M. Wakchaure, Dr. U. R. Awari, Dr.S. R. Parekar, Dr. M. R. Shiyekar, Dr. H. R. Magarpatil, Dr. M.A. Mahajan, Mr. S. B. Gorade <br>
-                                        Beneficiary: Faculties from SPPU and other universities (35) <br>
-                                        Date: 13th and 14th June 2018 <br>
-                                        Coordinator: Mr. S. B. Gorade, Mrs. R. R. Purohit <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-group">
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(13).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Experts Lecture on “Realities of the career and job world ”
-                                      </h5>
-                                      <p class="card-text">Resource person: Mr. Saurabh Sharma, HR at Potter’s Earth <br>
-                                        Beneficiary: TE Civil Students <br>
-                                        Date: 28/09/2018 <br>
-                                        Coordinator: Mr. Swapnil D. Kurhade <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(14).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Experts Lecture on “Construction of Marine Structures (Port & Harbours)”</h5>
-                                      <p class="card-text">
-                                        Resource person: Er. Prafulla Pagnis <br>
-                                        Beneficiary: TE Civil Students <br>
-                                        Date: 20th August 2018 <br>
-                                        Coordinator: Mr. S. P. Gaikwad <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(15).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Experts Lecture on “Dynamic Analysis of RCC Building”
-                                      </h5>
-                                      <p class="card-text">
-                                        Resource person: Mrs. J. P. Bhusari
-                                        Associate Professor (SCOE, Vadgaon) <br>
-                                        Beneficiary: BE Civil Students <br>
-                                        Date: 28th September 2018 <br>
-                                        Coordinator: Mrs. K. D. Dhapekar <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-group">
-                                <div class="card">
-                                    <img src="../../assets/img/workshop(16).jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                      <h5 class="card-title">Experts Lecture on “Career in Civil Engineering”
-                                      </h5>
-                                      <p class="card-text">
-                                        Resource person: Mr. Dattatray Yadav
-                                        Director, DYP Infraprojects PVT. LTD <br>
-                                        Beneficiary: SE Civil Students <br>
-                                        Date: 10th September 2018 <br>
-                                        Coordinator: Mr. S. D. Kurhade <br>
-                                      </p>
-                                      <p class="card-text"><small class="text-muted"></small></p>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
+                            
+ 
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    
 
     <!-- Footer -->
     <footer>

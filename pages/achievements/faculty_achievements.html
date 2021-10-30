@@ -52,7 +52,7 @@
                     <a href="../../index.html" class="nav-link text-light fw-bold">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active-link fw-bold" 
+                    <a class="nav-link dropdown-toggle text-light fw-bold" 
                         href="#" 
                         id="navbarDropdownMenuLink" 
                         data-bs-toggle="dropdown" 
@@ -60,12 +60,28 @@
                         aria-expanded="false">
                         About Us
                     </a>
-                    <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
+                    <ul class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item pb-2" href="../about_us/overview.html">Overview</a>
                         <a class="dropdown-item" href="../about_us/hod_desk.html">HOD Desk</a>
                         <a class="dropdown-item" href="../about_us/bos_civil.html">BOS Civil</a>
-                        <a class="dropdown-item" href="../about_us/infrastructure.html">Infrastructure</a>
-                    </div>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenu1Link" href="#">Civil Engineering</a>
+                            <ul class="dropdown-menu droopy py-0" aria-labelledby="navbarDropdownMenu1Link">
+                                <li><a class="dropdown-item" href="../civil_dept/opportunities.html">Opportunities</a></li> 
+                                <li><a class="dropdown-item" href="../civil_dept/branches.html">Branches</a></li>
+                                <li><a class="dropdown-item" href="../civil_dept/software_used.html">Softwares Used</a></li>
+                                <li><a class="dropdown-item" href="../civil_dept/prosperity.html">Prosperity</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenu1Link" href="#">Facilities</a>
+                            <ul class="dropdown-menu droopy py-0" aria-labelledby="navbarDropdownMenu1Link">
+                                <li><a class="dropdown-item" href="../about_us/infra_overview.html">Overview</a></li> 
+                                <li><a class="dropdown-item" href="../about_us/labs.html">Laboratories</a></li>
+                                <li><a class="dropdown-item" href="../about_us/software_available.html">Softwares Available</a></li>
+                               </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-light fw-bold" 
@@ -92,7 +108,8 @@
                     </a>
                     <ul class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="../academics/curriculum_overview.html">Curriculum Overview</a></li> 
-                        <li><a class="dropdown-item" href="../academics/results.html">Results and Rank Holders</a></li>
+                        <li><a class="dropdown-item" href="../academics/results.html">Results</a></li>
+                        <li><a class="dropdown-item" href="../academics/results.html">Rank Holders</a></li>
                         <li><a class="dropdown-item" href="../academics/timetables.html">TimeTable</a></li>
                         <li class="dropdown-submenu">
                             <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenu1Link" href="#">Industry Interaction</a>
@@ -116,7 +133,7 @@
                     <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="../research/overview.html">Overview</a>
                         <a class="dropdown-item" href="../research/publications.html">Publications</a>
-                        <a class="dropdown-item" href="../research/rndActivities.html">R & D Activities</a>
+                        <a class="dropdown-item" href="../research/publications.html">SIG</a>
                         <a class="dropdown-item" href="../research/dev_programmes.html">Development Interactions</a>
                         <a class="dropdown-item" href="../research/faculty_interation.html">Faculty Interaction</a>
                         <a class="dropdown-item" href="../research/funding_proposal.html">Funding Proposal</a>
@@ -133,6 +150,7 @@
                     </a>
                     <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="../student/CIESA.html">Civil Engineering Students Association</a>
+                        <a class="dropdown-item" href="../student/chapters.html">Professional Chapters</a>
                         <a class="dropdown-item" href="../student/technical_events.html">Technical events</a>
                         <a class="dropdown-item" href="../student/sthaptya.html">Sthapatya 2019</a>
                         <a class="dropdown-item" href="../student/non_technical_events.html">Non-Technical Events</a>
@@ -155,7 +173,7 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light fw-bold" 
+                    <a class="nav-link dropdown-toggle active-link fw-bold" 
                         href="#" 
                         id="navbarDropdownMenuLink" 
                         data-bs-toggle="dropdown" 
@@ -177,7 +195,7 @@
                         data-bs-toggle="dropdown" 
                         aria-haspopup="true" 
                         aria-expanded="false">  
-                        Placement
+                        Alumni
                     </a>
                     <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="../alumni/placement.html">Placement</a>
@@ -194,31 +212,60 @@
 
     <!-- Main Section -->
     <div class="container-fluid mt-4">
-        <div class="row g-3">
-            <div class="col-lg-3">
-                <div class="card mb-3 card-shadow border-radius side-tab">
+        <div class="row g-3 mx-3">
+            <div class="col-lg-3 all-side-section">
+                <div class="card col-lg-10 mb-3 card-shadow border-radius side-tab">
                     <h6 class="text-uppercase cus-bg-secondary text-light fw-bold p-2 mb-0 t-border-radius" style="border-bottom: 1px solid #aaa;">
                         Achievements</h6>
                     <div class="card-body p-0">
                         <ul style="list-style: none;" class="p-0 m-0">
-                            <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100">
+                            <a href="../achievements/faculty_achievements.html" class="quick_link text-dark p-2 d-block w-100">
+                                <span>
+                                    <img    src="../../assets/icons/angle-double-right-solid.svg" 
+                                            style="height:22px; width: 22px;" 
+                                            alt="arrow"
+                                            class="pb-1"
+                                    >
+                                </span> 
                                 Faculty Achievements
                             </a>
-                            <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100">
-                                Student Achievements
-                            </a>
-                            <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100">
+                            <a href="../achievements/student_achievements.html" class="quick_link text-dark p-2 d-block w-100">
+                              <span>
+                                  <img    src="../../assets/icons/angle-double-right-solid.svg" 
+                                          style="height:22px; width: 22px;" 
+                                          alt="arrow"
+                                          class="pb-1"
+                                  >
+                              </span> 
+                              Student Achievements
+                          </a>
+                            <a href="../achievements/non-teaching_staff.html" class="quick_link text-dark p-2 d-block w-100">
+                                <span>
+                                    <img    src="../../assets/icons/angle-double-right-solid.svg" 
+                                            style="height:22px; width: 22px;" 
+                                            alt="arrow"
+                                            class="pb-1"
+                                    >
+                                </span>
                                 Non-Teaching Staff
                             </a>
-                            <a href="#" class="quick_link px-3 text-dark p-2 d-block w-100 b-border-radius">
+                            
+                            <a href="../achievements/media_coverage.html" class="quick_link text-dark p-2 d-block w-100 b-border-radius">
+                                <span>
+                                    <img    src="../../assets/icons/angle-double-right-solid.svg" 
+                                            style="height:22px; width: 22px;" 
+                                            alt="arrow"
+                                            class="pb-1"
+                                    >
+                                </span>
                                 Media Coverage
                             </a>
-                        </ul>
+                        </ul>         
                     </div>
                 </div>
             </div>
             
-            <div class="col-lg-9 bg-pure p-3" style="border: 1px solid rgba(0,0,0,.125);">
+            <div class="col-lg-9 bg-pure card-shadow p-3" style="border: 1px solid rgba(0,0,0,.125);">
                 <div class="container px-0 mb-4">
                     <!-- Faculty Achievements -->
                     <h5 class="fw-bold text-primary section-heading pb-2">Faculty Achievements</h5>
