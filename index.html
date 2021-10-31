@@ -74,12 +74,28 @@
                         aria-expanded="false">
                         About Us
                     </a>
-                    <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
+                    <ul class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="./pages/about_us/overview.html">Overview</a>
                         <a class="dropdown-item" href="./pages/about_us/hod_desk.html">HOD Desk</a>
                         <a class="dropdown-item" href="./pages/about_us/bos_civil.html">BOS Civil</a>
-                        <a class="dropdown-item" href="./pages/about_us/infrastructure.html">Infrastructure</a>
-                    </div>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenu1Link" href="#">Civil Engineering</a>
+                            <ul class="dropdown-menu droopy py-0" aria-labelledby="navbarDropdownMenu1Link">
+                                <li><a class="dropdown-item" href="./pages/civil_dept/opportunities.html">Opportunities</a></li> 
+                                <li><a class="dropdown-item" href="./pages/civil_dept/branches.html">Branches</a></li>
+                                <li><a class="dropdown-item" href="./pages/civil_dept/software_used.html">Softwares Used</a></li>
+                                <li><a class="dropdown-item" href="./pages/civil_dept/prosperity.html">Prosperity</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenu1Link" href="#">Facilities</a>
+                            <ul class="dropdown-menu droopy py-0" aria-labelledby="navbarDropdownMenu1Link">
+                                <li><a class="dropdown-item" href="./pages/about_us/infra_overview.html">Overview</a></li> 
+                                <li><a class="dropdown-item" href="./pages/about_us/infrastructure.html">Laboratories</a></li>
+                                <li><a class="dropdown-item" href="./pages/about_us/software_available.html">Softwares Available</a></li>
+                               </ul>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-light fw-bold" 
@@ -106,7 +122,8 @@
                     </a>
                     <ul class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="./pages/academics/curriculum_overview.html">Curriculum Overview</a></li> 
-                        <li><a class="dropdown-item" href="./pages/academics/results.html">Results and Rank Holders</a></li>
+                        <li><a class="dropdown-item" href="./pages/academics/results.html">Results</a></li>
+                        <li><a class="dropdown-item" href="./pages/academics/rankHolders.html">Rank Holders</a></li>
                         <li><a class="dropdown-item" href="./pages/academics/timetables.html">TimeTable</a></li>
                         <li class="dropdown-submenu">
                             <a class="dropdown-item dropdown-toggle" id="navbarDropdownMenu1Link" href="#">Industry Interaction</a>
@@ -130,7 +147,7 @@
                     <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="./pages/research/overview.html">Overview</a>
                         <a class="dropdown-item" href="./pages/research/publications.html">Publications</a>
-                        <a class="dropdown-item" href="./pages/research/rndActivities.html">R & D Activities</a>
+                        <a class="dropdown-item" href="./pages/research/sig.html">SIG</a>
                         <a class="dropdown-item" href="./pages/research/dev_programmes.html">Development Interactions</a>
                         <a class="dropdown-item" href="./pages/research/faculty_interation.html">Faculty Interaction</a>
                         <a class="dropdown-item" href="./pages/research/funding_proposal.html">Funding Proposal</a>
@@ -147,6 +164,7 @@
                     </a>
                     <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="./pages/student/CIESA.html">Civil Engineering Students Association</a>
+                        <a class="dropdown-item" href="./pages/student/CIESA.html">Professional Chapters</a>
                         <a class="dropdown-item" href="./pages/student/technical_events.html">Technical events</a>
                         <a class="dropdown-item" href="./pages/student/sthaptya.html">Sthapatya 2019</a>
                         <a class="dropdown-item" href="./pages/student/non_technical_events.html">Non-Technical Events</a>
@@ -191,7 +209,7 @@
                         data-bs-toggle="dropdown" 
                         aria-haspopup="true" 
                         aria-expanded="false">  
-                        Placement
+                        Alumni
                     </a>
                     <div class="dropdown-menu pt-0" style="background-color: transparent; border: none;" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="./pages/alumni/placement.html">Placement</a>
@@ -376,19 +394,27 @@
                     <!-- Title -->
                     <div class="col-md-12 mb-3 p-0">
                         <h4 class="m-section-heading fw-bold text-primary p-3">Welcome to Department of Civil Engineering</h4>
-                        <div class="p-3 cus-text-justify">
-                            <span class="fw-bold">Civil engineering</span> is a professional engineering discipline that deals with the design, 
-                            construction, and maintenance of the physical and naturally built environment, including 
-                            works like roads, bridges, canals, dams, and buildings. Civil engineering discipline was 
-                            introduced, at PCCOE in Academic Year 2012-13.
+                        <div class="row mx-0">
+                            <div class="col-md-8 px-0">
+                                <div class="p-3 cus-text-justify">
+                                    <span class="fw-bold">Civil engineering</span> is a professional engineering discipline that deals with the design, 
+                                    construction, and maintenance of the physical and naturally built environment, including 
+                                    works like roads, bridges, canals, dams, and buildings. Civil engineering discipline was 
+                                    introduced, at PCCOE in Academic Year 2012-13.
+                                </div>
+                                <div class="p-3 pt-0 cus-text-justify">
+                                    The department includes well equipped laboratories of Strength of Material, Fluid Mechanics, Surveying, Transportation Engineering, 
+                                    Environmental Engineering and Geotechnical Engineering,. The department offers a four year course leading 
+                                    to the Bachelor’s Degree in Civil Engineering with a student intake of 60. Right from its 
+                                    inception, the department has been doing its best to bring about excellence in academics. The department 
+                                    is equipped with latest facilities and equipments for extensive training to the undergraduate students.
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <lottie-player class="vision_animate img-fluid w-100" src="https://assets1.lottiefiles.com/packages/lf20_qcrbuch7.json" mode="bounce" background="transparent"  speed="1"  style="height: 300px;"  loop  autoplay></lottie-player>
+                            </div>
                         </div>
-                        <div class="p-3 cus-text-justify">
-                            The department includes well equipped laboratories of Strength of Material, Fluid Mechanics, Surveying, Transportation Engineering, 
-                            Environmental Engineering and Geotechnical Engineering,. The department offers a four year course leading 
-                            to the Bachelor’s Degree in Civil Engineering with a student intake of 60. Right from its 
-                            inception, the department has been doing its best to bring about excellence in academics. The department 
-                            is equipped with latest facilities and equipments for extensive training to the undergraduate students.
-                        </div>
+
                     </div>
 
                     <!-- Important Links -->
@@ -417,7 +443,7 @@
                                         class="img-fluid w-100"
                                     >
                                     </lottie-player>
-                                    <div class="text-center h5 text-primary"><a href="./pages/academics/results.html"> Rank Holders</a></div>
+                                    <div class="text-center h5 text-primary"><a href="./pages/academics/rankHolders.html"> Rank Holders</a></div>
                                 </div>
                                 <div class="col-sm-4 col-md-2 ">
                                     <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_iw6xpoa9.json"  
@@ -450,7 +476,7 @@
                                         class="img-fluid w-100"
                                     >
                                     </lottie-player>
-                                    <div class="text-center h5 text-primary"><a href="./pages/student/student_development_welfare.html">Student</a></div>
+                                    <div class="text-center h5 text-primary"><a href="./pages/student/CIESA.html">Student</a></div>
                                 </div>
                             </div>
                         </div>
