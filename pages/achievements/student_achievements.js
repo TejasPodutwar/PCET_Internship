@@ -157,8 +157,37 @@ addOrderedTable(root, headings, data)
 
 root = document.getElementById("student_participation_and_awards_table2");
 data = [
-    ["Mayuresh Bajbalkar", "BE", "Paper Presentation, Technospark2020", "PCCOE & R, Ravet", "1st Position"],
+    ["Mayuresh Bajbalkar", "BE", "Paper Presentation", "Technospark2020" , "PCCOE & R, Ravet", "1st Position"],
     ["Rushikesh Bangar", "BE", "Paper Presentation,Technospark2020", "PCCOE & R, Ravet", "1st Position"],
     // ["Pratik Pawar", "BE", "Paper Presentation, Technospark2020", ]
 ]
+addOrderedTable(root, headings, data);
+
+
+////////////////////////////////////////
+
+headings = [
+    "Sr. No.",
+    "Name of Participants",
+    "Class/ Div",
+    "Topic",
+    "Category"
+]
+
+root = document.getElementById("student_paper_presentation_by_be_table")
+
+data = [
+    ["Khushaboo Lohakare","BE Civil","Water Hyacinth into Nutrient Rich Fertilizer by Rotary Drum","Research Paper"],
+    ["Supriya Joshi","BE Civil","Water Hyacinth into Nutrient Rich Fertilizer by Rotary Drum","Research Paper"],
+    ["Pooja Patil","BE Civil","Water Hyacinth into Nutrient Rich Fertilizer by Rotary Drum","Research Paper"],
+    ["Vaishnavi Shinde","BE Civil","Water Hyacinth into Nutrient Rich Fertilizer by Rotary Drum","Research Paper"],
+    ["Saurabh Khadkekar","BE Civil","Water Hyacinth into Nutrient Rich Fertilizer by Rotary Drum","Research Paper"],
+    ["Vishal Sharma","BE Civil","Recycling and Reuse of Water Treatment Plant Sludge as a coagulant in sewage treatment plant","Research Idea"],
+    ["Wasim Mukhtar","BE Civil","Recycling and Reuse of Water Treatment Plant Sludge as a coagulant in sewage treatment plant","Research Idea"],
+    ["Rajshri Raut","BE Civil","Recycling and Reuse of Water Treatment Plant Sludge as a coagulant in sewage treatment plant","Research Idea"],
+    ["Raj Sonune","BE Civil","Recycling and Reuse of Water Treatment Plant Sludge as a coagulant in sewage treatment plant","Research Idea"],
+    ["Hrutuja Vijay Chaudhari","BE Civil","Floating treatment wetlands: biological buoyant filters for wastewater reclamation","Research Paper"]
+    
+]
+
 addOrderedTable(root, headings, data);
