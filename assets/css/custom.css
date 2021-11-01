@@ -187,7 +187,7 @@ html{
 }
 
 .announcement_marquee{
-    min-height: 150px;
+    min-height: 200px;
 }
 
 
@@ -509,12 +509,16 @@ footer{
 #more {display: none;}
 
 
-/* Student Achievements */
-.s_carousel_caption{
+/* Student Achievements  and Labs*/
+.s_carousel_caption, .labs_carousel_caption{
     position: absolute;
     top:50%;
     transform: translateY(50%);
     left:10%;
+}
+
+.labs_carousel_caption{
+    top:60%;
 }
 
 .s_carousel_img_label{
@@ -522,12 +526,18 @@ footer{
     font-size: 40px;
 }
 
+.labs_carousel_img_label{
+    background-color: rgba(255,255,255,0.7);
+    font-size: 30px;
+}
+
 .s_carousel_img_label1{
     font-size: 30px;
     color: var(--pure);
 }
 
-.owl-item.active .s_carousel_img_label{
+.owl-item.active .s_carousel_img_label, 
+.owl-item.active .labs_carousel_img_label{
     animation: fadeInLeftBig ease 1s both;
 }
 
@@ -647,3 +657,4 @@ footer{
     height: 32px;
     width: 32px;
 }
+
