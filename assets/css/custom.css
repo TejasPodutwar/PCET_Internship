@@ -155,6 +155,12 @@ html{
     border-bottom: 1px solid #dee2e6;
 }
 
+.active_side_link{
+    background-color: #F2F4F7;
+    color: var(--primary-blue);
+    border-left: 2px solid var(--primary-blue); 
+}
+
 .quick_link:hover{
     background-color: #F2F4F7;
     color: var(--primary-blue);
