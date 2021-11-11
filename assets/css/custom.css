@@ -378,7 +378,9 @@ html{
 }
 
 .topper_pic{
-    max-height:320px;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
 }
 
 
