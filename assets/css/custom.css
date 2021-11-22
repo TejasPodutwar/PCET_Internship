@@ -761,3 +761,17 @@ footer{
     z-index: 1000;
     border-radius: 50%;
 }
+
+/* SIG */
+
+.sig_title{
+    background-color: #FFD832;
+    color: var(--pure);
+    font-size: 26px;
+}
+
+.sig_pic{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
