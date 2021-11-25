@@ -10,13 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Estonia&display=swap" rel="stylesheet">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -24,9 +25,33 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/opening.css">
 </head>
 
 <body class="cus-bg-primary">
+    
+    <div id="myNav" class="overlay">
+        <div id="myNav1" class="overlay">
+            <div class="overlay-content">
+                <div class="container">
+                    <h1 style="font-size: 80px; color: white; font-family: 'Estonia', cursive;" class="fw-bold">Welcome to Civil Department <br>
+                    Website launching ceremony</h1>
+                    <h1 style="font-size: 56px; color: white;font-family: 'Estonia', serif;" id="demo"></h1>
+                    <div style="padding-top:60px;">
+                    <button style="height:170px;width:170px;font-family: 'Zen Antique Soft', serif;color:white;background:transparent;" class="launch-btn" onclick="dwntime()"> 
+                        <img src="images/gear.png"class="img-fluid" alt="gear"> 
+                        <h2 style="color:white; background:transparent;top: 35%;left: 38.7%; font-size: 30px;position: absolute;" class="pt-2">Go</h2>
+                    </button>
+                
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    <div>
+    
+    
+    
     <!-- Back to top button -->
     <div id="back-to-top-btn">
         <i class="fas fa-arrow-circle-up fa-3x"></i>
@@ -800,4 +825,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     <script src="./assets/js/home.js"></script>
+    <script type="text/javascript">
+        //10sec timer
+    function dwntime(){
+    var timeleft = 5;
+    var downloadTimer = setInterval(function(){
+      if(timeleft <= 0){
+        clearInterval(downloadTimer);
+        document.getElementById("demo").innerHTML = "Congratulations";
+        document.getElementById("myNav").style.left = "100%";
+        document.getElementById("myNav1").style.left = "-100%";
+      } else {
+        document.getElementById("demo").innerHTML = timeleft ;
+    
+      }
+      timeleft -= 1;
+    }, 1000);
+    }
+        </script>
 </html>

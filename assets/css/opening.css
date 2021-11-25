@@ -1,0 +1,95 @@
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 10000 !important;
+    top: 0;
+    left: 0;
+    background:url('../../images/c1.jpg') no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    transition: 4.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  
+  .animate-left {
+      position: fixed;
+      -webkit-animation: animateleft 0.4s;
+      animation: animateleft 0.4s;
+  }
+  @-webkit-keyframes animateleft {
+      from {
+          top: -300px;
+          opacity: 0;
+      }
+      to {
+          bottom: 0;
+          opacity: 1;
+      }
+  }
+  @keyframes animateleft {
+      from {
+          top: -300px;
+          opacity: 0;
+      }
+      to {
+          bottom: 0;
+          opacity: 1;
+      }
+  }
+  
+  
+  
+        .launch-btn {
+    position: relative;
+    border: none;
+    border-radius: 0px;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    line-height: 1.5rem;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .3s, outline 0s;
+    transition: all .3s, outline 0s;
+    width: auto;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
